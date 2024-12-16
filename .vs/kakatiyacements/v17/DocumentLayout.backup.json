@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\itctrls\\kakatiyacements\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|c:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\sebisastfilings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\js\\sebisastfilings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|c:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\addsebisastfilings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\js\\addsebisastfilings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|c:\\itctrls\\kakatiyacements\\kakatiyacements\\admin\\addsebisastfilings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\admin\\addsebisastfilings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|c:\\itctrls\\kakatiyacements\\kakatiyacements\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|c:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\kyccompliancedocuments.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\js\\kyccompliancedocuments.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|C:\\itctrls\\kakatiyacements\\kakatiyacements\\kyc-compliance-documents.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32C0AD55-60CC-49B9-8C90-2EA7897A4523}|kakatiyacements\\kakatiyacements.csproj|solutionrelative:kakatiyacements\\kyc-compliance-documents.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SebiSastFilings.js",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\SebiSastFilings.js",
+              "RelativeDocumentMoniker": "kakatiyacements\\js\\SebiSastFilings.js",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\SebiSastFilings.js",
+              "RelativeToolTip": "kakatiyacements\\js\\SebiSastFilings.js",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-10T11:15:40.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSebiSastFilings.js",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\AddSebiSastFilings.js",
+              "RelativeDocumentMoniker": "kakatiyacements\\js\\AddSebiSastFilings.js",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\AddSebiSastFilings.js",
+              "RelativeToolTip": "kakatiyacements\\js\\AddSebiSastFilings.js",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-10T11:15:26.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddSebiSastFilings.aspx",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\Admin\\AddSebiSastFilings.aspx",
+              "RelativeDocumentMoniker": "kakatiyacements\\Admin\\AddSebiSastFilings.aspx",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\Admin\\AddSebiSastFilings.aspx",
+              "RelativeToolTip": "kakatiyacements\\Admin\\AddSebiSastFilings.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-10T11:14:57.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\Web.config",
+              "RelativeDocumentMoniker": "kakatiyacements\\Web.config",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\Web.config",
+              "RelativeToolTip": "kakatiyacements\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-10T05:22:13.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KycComplianceDocuments.js",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\KycComplianceDocuments.js",
+              "RelativeDocumentMoniker": "kakatiyacements\\js\\KycComplianceDocuments.js",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\js\\KycComplianceDocuments.js",
+              "RelativeToolTip": "kakatiyacements\\js\\KycComplianceDocuments.js",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-09T14:52:59.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "kyc-compliance-documents.html",
+              "DocumentMoniker": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\kyc-compliance-documents.html",
+              "RelativeDocumentMoniker": "kakatiyacements\\kyc-compliance-documents.html",
+              "ToolTip": "C:\\itctrls\\kakatiyacements\\kakatiyacements\\kyc-compliance-documents.html",
+              "RelativeToolTip": "kakatiyacements\\kyc-compliance-documents.html",
+              "ViewState": "AQIAAPYBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-09T14:52:37.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

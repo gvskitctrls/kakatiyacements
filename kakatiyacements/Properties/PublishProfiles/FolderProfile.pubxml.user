@@ -1,0 +1,3118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\itctrls\kakatiyacements\kakatiyacements\bin\app.publish\kakatiyacements</_PublishTargetUrl>
+    <History>True|2024-07-25T17:49:36.7968208Z;True|2024-07-24T23:59:11.9819429+05:30;True|2024-07-23T00:05:14.2857899+05:30;True|2024-07-21T01:07:08.0771415+05:30;True|2024-06-18T23:31:40.3797958+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".vs/new web/config/applicationhost.config">
+      <publishTime>06/14/2024 21:32:09</publishTime>
+    </File>
+    <File Include=".vs/new web/v16/.suo">
+      <publishTime>06/14/2024 21:32:09</publishTime>
+    </File>
+    <File Include=".vs/slnx.sqlite">
+      <publishTime>06/14/2024 21:32:09</publishTime>
+    </File>
+    <File Include=".vs/VSWorkspaceState.json">
+      <publishTime>06/14/2024 21:32:09</publishTime>
+    </File>
+    <File Include="Admin/AddAgmEgmProceedings.aspx">
+      <publishTime>07/25/2024 22:44:51</publishTime>
+    </File>
+    <File Include="Admin/AddAnnualReport.aspx">
+      <publishTime>07/25/2024 22:43:04</publishTime>
+    </File>
+    <File Include="Admin/AddBoardMeetingNotices.aspx">
+      <publishTime>07/25/2024 22:44:51</publishTime>
+    </File>
+    <File Include="Admin/AddBookClosure.aspx">
+      <publishTime>07/25/2024 22:43:27</publishTime>
+    </File>
+    <File Include="Admin/AddCareersDetails.asmx">
+      <publishTime>06/24/2024 21:17:48</publishTime>
+    </File>
+    <File Include="Admin/AddCertificateUnderRegulation40%2810%29.asmx">
+      <publishTime>06/20/2024 23:10:29</publishTime>
+    </File>
+    <File Include="Admin/AddCertificateUnderRegulation7%283%29.aspx">
+      <publishTime>07/25/2024 22:43:43</publishTime>
+    </File>
+    <File Include="Admin/AddCertificateUnderRegulation74%285%29.aspx">
+      <publishTime>07/25/2024 22:43:51</publishTime>
+    </File>
+    <File Include="Admin/AddCommittees.aspx">
+      <publishTime>07/25/2024 22:44:00</publishTime>
+    </File>
+    <File Include="Admin/AddCommunicationswithShareholders.aspx">
+      <publishTime>07/25/2024 22:44:10</publishTime>
+    </File>
+    <File Include="Admin/AddCompositionofBoardCommittees.aspx">
+      <publishTime>07/25/2024 22:44:21</publishTime>
+    </File>
+    <File Include="Admin/AddContactData.aspx">
+      <publishTime>07/25/2024 22:24:30</publishTime>
+    </File>
+    <File Include="Admin/AddContactDetails.aspx">
+      <publishTime>07/25/2024 22:46:38</publishTime>
+    </File>
+    <File Include="Admin/AddContactInfo.asmx">
+      <publishTime>07/19/2024 21:48:39</publishTime>
+    </File>
+    <File Include="Admin/AddCorporateGovernanceReport.aspx">
+      <publishTime>07/25/2024 22:46:58</publishTime>
+    </File>
+    <File Include="Admin/AddCsrReports.asmx">
+      <publishTime>06/16/2024 12:42:37</publishTime>
+    </File>
+    <File Include="Admin/AddDesignations.aspx">
+      <publishTime>07/25/2024 22:47:10</publishTime>
+    </File>
+    <File Include="Admin/AddDetailsofRTA.aspx">
+      <publishTime>07/25/2024 22:52:49</publishTime>
+    </File>
+    <File Include="Admin/AddDisclosure.aspx">
+      <publishTime>07/25/2024 22:47:31</publishTime>
+    </File>
+    <File Include="Admin/AddDisclosureUnderRegulation302015.asmx">
+      <publishTime>06/19/2024 22:21:30</publishTime>
+    </File>
+    <File Include="Admin/AddFinancialResults.aspx">
+      <publishTime>07/25/2024 22:47:41</publishTime>
+    </File>
+    <File Include="Admin/AddGeneralAnnouncements.aspx">
+      <publishTime>07/25/2024 22:47:52</publishTime>
+    </File>
+    <File Include="Admin/AddInvestorGrievanceReports.aspx">
+      <publishTime>07/25/2024 22:48:02</publishTime>
+    </File>
+    <File Include="Admin/AddKycComplianceDocuments.aspx">
+      <publishTime>07/25/2024 22:48:11</publishTime>
+    </File>
+    <File Include="Admin/AddNoticesofGeneralMeetings.aspx">
+      <publishTime>07/25/2024 22:48:22</publishTime>
+    </File>
+    <File Include="Admin/AddOutcomeofBoardMeeting.asmx">
+      <publishTime>06/19/2024 23:49:41</publishTime>
+    </File>
+    <File Include="Admin/AddPaperAdvertisements.aspx">
+      <publishTime>07/25/2024 22:48:31</publishTime>
+    </File>
+    <File Include="Admin/AddPolicies.aspx">
+      <publishTime>07/25/2024 22:48:42</publishTime>
+    </File>
+    <File Include="Admin/AddReconciliationOfShareCapitalAudit.aspx">
+      <publishTime>07/25/2024 22:48:53</publishTime>
+    </File>
+    <File Include="Admin/AddRelatedPartyTransactions.aspx">
+      <publishTime>07/25/2024 22:49:04</publishTime>
+    </File>
+    <File Include="Admin/AddScrutinizersReports.aspx">
+      <publishTime>07/25/2024 22:49:34</publishTime>
+    </File>
+    <File Include="Admin/AddSEBI%28PIT%29SDDComplianceCertificates.aspx">
+      <publishTime>07/25/2024 22:49:44</publishTime>
+    </File>
+    <File Include="Admin/AddSebiSastFilings.aspx">
+      <publishTime>07/25/2024 22:49:54</publishTime>
+    </File>
+    <File Include="Admin/AddSecretarialComplianceReports.aspx">
+      <publishTime>07/25/2024 22:50:04</publishTime>
+    </File>
+    <File Include="Admin/AddShareholdersInformation.asmx">
+      <publishTime>06/17/2024 22:44:19</publishTime>
+    </File>
+    <File Include="Admin/AddShareholdingPattern.aspx">
+      <publishTime>07/25/2024 22:50:15</publishTime>
+    </File>
+    <File Include="Admin/AddTradingWindowClosure.aspx">
+      <publishTime>07/25/2024 22:50:24</publishTime>
+    </File>
+    <File Include="Admin/AddUnpaidDividendIepf.aspx">
+      <publishTime>07/25/2024 22:50:32</publishTime>
+    </File>
+    <File Include="Admin/AddUser.aspx">
+      <publishTime>07/25/2024 22:24:41</publishTime>
+    </File>
+    <File Include="Admin/AgmEgmProceedings.asmx">
+      <publishTime>06/21/2024 21:47:25</publishTime>
+    </File>
+    <File Include="Admin/AnnualReport.asmx">
+      <publishTime>06/17/2024 19:40:57</publishTime>
+    </File>
+    <File Include="Admin/BoardMeetingNotices.asmx">
+      <publishTime>06/19/2024 23:00:23</publishTime>
+    </File>
+    <File Include="Admin/BoardofDirectors.aspx">
+      <publishTime>07/25/2024 22:50:53</publishTime>
+    </File>
+    <File Include="Admin/BoardOfDirectorsData.asmx">
+      <publishTime>06/15/2024 15:02:03</publishTime>
+    </File>
+    <File Include="Admin/BookClosure.asmx">
+      <publishTime>06/21/2024 22:59:51</publishTime>
+    </File>
+    <File Include="Admin/CareersData.aspx">
+      <publishTime>07/25/2024 22:51:08</publishTime>
+    </File>
+    <File Include="Admin/CertificateUnderRegulation40%2810%29.aspx">
+      <publishTime>07/25/2024 22:51:20</publishTime>
+    </File>
+    <File Include="Admin/CertificateUnderRegulation7%283%29.asmx">
+      <publishTime>06/21/2024 19:44:55</publishTime>
+    </File>
+    <File Include="Admin/CertificateUnderRegulation74%285%29.asmx">
+      <publishTime>06/21/2024 21:17:05</publishTime>
+    </File>
+    <File Include="Admin/Committees.asmx">
+      <publishTime>06/15/2024 16:43:56</publishTime>
+    </File>
+    <File Include="Admin/CommunicationswithShareholders.asmx">
+      <publishTime>06/17/2024 23:29:40</publishTime>
+    </File>
+    <File Include="Admin/CompositionofBoardCommittees.asmx">
+      <publishTime>06/15/2024 17:17:36</publishTime>
+    </File>
+    <File Include="Admin/ContactData.asmx">
+      <publishTime>06/22/2024 15:52:30</publishTime>
+    </File>
+    <File Include="Admin/ContactDetails.asmx">
+      <publishTime>06/15/2024 21:30:35</publishTime>
+    </File>
+    <File Include="Admin/ContactInfo.aspx">
+      <publishTime>07/25/2024 22:34:17</publishTime>
+    </File>
+    <File Include="Admin/CorporateGovernanceReport.asmx">
+      <publishTime>06/16/2024 22:33:33</publishTime>
+    </File>
+    <File Include="Admin/CsrReports.aspx">
+      <publishTime>07/25/2024 22:51:43</publishTime>
+    </File>
+    <File Include="Admin/Designations.asmx">
+      <publishTime>06/15/2024 14:26:03</publishTime>
+    </File>
+    <File Include="Admin/DetailsofRTA.asmx">
+      <publishTime>06/15/2024 22:57:25</publishTime>
+    </File>
+    <File Include="Admin/Disclosure.asmx">
+      <publishTime>06/15/2024 10:50:23</publishTime>
+    </File>
+    <File Include="Admin/DisclosureUnderRegulation302015.aspx">
+      <publishTime>07/25/2024 22:51:56</publishTime>
+    </File>
+    <File Include="Admin/FinancialResults.asmx">
+      <publishTime>06/16/2024 18:27:17</publishTime>
+    </File>
+    <File Include="Admin/GeneralAnnouncements.asmx">
+      <publishTime>07/22/2024 21:53:23</publishTime>
+    </File>
+    <File Include="Admin/InvestorGrievanceReports.asmx">
+      <publishTime>06/16/2024 21:51:19</publishTime>
+    </File>
+    <File Include="Admin/KycComplianceDocuments.asmx">
+      <publishTime>06/18/2024 22:19:21</publishTime>
+    </File>
+    <File Include="Admin/MailData.asmx">
+      <publishTime>07/19/2024 22:34:51</publishTime>
+    </File>
+    <File Include="Admin/MailData.aspx">
+      <publishTime>07/25/2024 22:34:47</publishTime>
+    </File>
+    <File Include="Admin/NoticesofGeneralMeetings.asmx">
+      <publishTime>06/21/2024 23:22:21</publishTime>
+    </File>
+    <File Include="Admin/OutcomeofBoardMeeting.aspx">
+      <publishTime>07/25/2024 22:52:25</publishTime>
+    </File>
+    <File Include="Admin/PaperAdvertisements.asmx">
+      <publishTime>06/20/2024 21:07:35</publishTime>
+    </File>
+    <File Include="Admin/policies.asmx">
+      <publishTime>06/16/2024 00:27:32</publishTime>
+    </File>
+    <File Include="Admin/ReconciliationOfShareCapitalAudit.asmx">
+      <publishTime>06/22/2024 11:52:31</publishTime>
+    </File>
+    <File Include="Admin/RelatedPartyTransactions.asmx">
+      <publishTime>06/22/2024 16:24:47</publishTime>
+    </File>
+    <File Include="Admin/ScrutinizersReports.asmx">
+      <publishTime>06/22/2024 11:21:27</publishTime>
+    </File>
+    <File Include="Admin/SEBI%28PIT%29SDDComplianceCertificates.asmx">
+      <publishTime>06/22/2024 13:16:56</publishTime>
+    </File>
+    <File Include="Admin/SebiSastFilings.asmx">
+      <publishTime>06/22/2024 12:30:29</publishTime>
+    </File>
+    <File Include="Admin/SecretarialComplianceReports.asmx">
+      <publishTime>06/21/2024 22:32:13</publishTime>
+    </File>
+    <File Include="Admin/ShareholdersInformation.aspx">
+      <publishTime>07/25/2024 22:52:43</publishTime>
+    </File>
+    <File Include="Admin/ShareholdingPattern.asmx">
+      <publishTime>06/16/2024 14:45:58</publishTime>
+    </File>
+    <File Include="Admin/TradingWindowClosure.asmx">
+      <publishTime>06/20/2024 22:21:02</publishTime>
+    </File>
+    <File Include="Admin/UnpaidDividendIepf.asmx">
+      <publishTime>06/17/2024 22:01:23</publishTime>
+    </File>
+    <File Include="Admin/User.asmx">
+      <publishTime>06/18/2024 21:39:52</publishTime>
+    </File>
+    <File Include="agm-egm-proceedings.html">
+      <publishTime>07/22/2024 22:49:26</publishTime>
+    </File>
+    <File Include="annual-report.html">
+      <publishTime>07/21/2024 00:19:00</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>10/19/2021 17:23:32</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>01/28/2022 14:19:18</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.pdb">
+      <publishTime>01/28/2022 13:36:56</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.dll">
+      <publishTime>09/12/2020 06:41:58</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.Streams.dll">
+      <publishTime>09/12/2020 06:42:00</publishTime>
+    </File>
+    <File Include="bin/K4os.Hash.xxHash.dll">
+      <publishTime>07/04/2019 02:09:02</publishTime>
+    </File>
+    <File Include="bin/kakatiyacements.dll">
+      <publishTime>07/25/2024 23:19:32</publishTime>
+    </File>
+    <File Include="bin/kakatiyacements.pdb">
+      <publishTime>07/25/2024 23:19:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/11/2022 02:07:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 12:39:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 15:35:18</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>02/19/2020 15:35:18</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/20/2020 00:16:30</publishTime>
+    </File>
+    <File Include="bin/Ubiety.Dns.Core.dll">
+      <publishTime>06/11/2022 02:04:18</publishTime>
+    </File>
+    <File Include="bin/ZstdNet.dll">
+      <publishTime>06/11/2022 02:04:18</publishTime>
+    </File>
+    <File Include="board-meeting-notices.html">
+      <publishTime>07/22/2024 22:46:22</publishTime>
+    </File>
+    <File Include="board-of-directors-and-KMPs.html">
+      <publishTime>07/21/2024 00:19:27</publishTime>
+    </File>
+    <File Include="book-closure.html">
+      <publishTime>07/22/2024 22:50:24</publishTime>
+    </File>
+    <File Include="careers.aspx">
+      <publishTime>07/21/2024 00:17:08</publishTime>
+    </File>
+    <File Include="careers.html">
+      <publishTime>07/21/2024 00:01:28</publishTime>
+    </File>
+    <File Include="cement.html">
+      <publishTime>07/21/2024 00:20:21</publishTime>
+    </File>
+    <File Include="certificate-under-regulation-40%2810%29.html">
+      <publishTime>07/22/2024 22:48:28</publishTime>
+    </File>
+    <File Include="certificate-under-regulation-7%283%29.html">
+      <publishTime>07/22/2024 22:48:47</publishTime>
+    </File>
+    <File Include="certificate-under-regulation-74%285%29.html">
+      <publishTime>07/22/2024 22:49:04</publishTime>
+    </File>
+    <File Include="communications-with-shareholders.html">
+      <publishTime>07/22/2024 22:43:27</publishTime>
+    </File>
+    <File Include="composition-of-board-committees.html">
+      <publishTime>07/21/2024 00:21:41</publishTime>
+    </File>
+    <File Include="contact-details-of-official-responsible.html">
+      <publishTime>07/21/2024 00:57:07</publishTime>
+    </File>
+    <File Include="contact-us.aspx">
+      <publishTime>07/21/2024 00:22:03</publishTime>
+    </File>
+    <File Include="contact-us.html">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="corporate-governance-report.html">
+      <publishTime>07/21/2024 00:22:13</publishTime>
+    </File>
+    <File Include="csr-reports.html">
+      <publishTime>07/21/2024 00:22:32</publishTime>
+    </File>
+    <File Include="css/ajax-loader.gif">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/all.min.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/all.min11.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/animate.min.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/contact-page.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/magnific-popup.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/meanmenu.min.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/sal.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/slick-theme.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/slick.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>07/20/2024 11:30:07</publishTime>
+    </File>
+    <File Include="details-of-rta.html">
+      <publishTime>07/21/2024 00:22:44</publishTime>
+    </File>
+    <File Include="disclosure-under-regulation-30-of-sebi-%28lodr%29-regulations-2015.html">
+      <publishTime>07/22/2024 22:45:53</publishTime>
+    </File>
+    <File Include="disclosure-under-regulations-sebi - Copy.html">
+      <publishTime>07/21/2024 00:23:02</publishTime>
+    </File>
+    <File Include="disclosure-under-regulations-sebi.html">
+      <publishTime>07/21/2024 00:23:10</publishTime>
+    </File>
+    <File Include="financial-results.html">
+      <publishTime>07/21/2024 00:23:19</publishTime>
+    </File>
+    <File Include="GeneralAnnouncements.html">
+      <publishTime>07/22/2024 22:52:39</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/14/2024 21:29:46</publishTime>
+    </File>
+    <File Include="HrData/CareerData.asmx">
+      <publishTime>07/20/2024 21:58:31</publishTime>
+    </File>
+    <File Include="HrData/GetCareesData.aspx">
+      <publishTime>07/25/2024 23:16:32</publishTime>
+    </File>
+    <File Include="HrData/JobDescription.asmx">
+      <publishTime>07/20/2024 12:26:38</publishTime>
+    </File>
+    <File Include="HrData/JobDescription.aspx">
+      <publishTime>07/25/2024 22:33:23</publishTime>
+    </File>
+    <File Include="img/about6.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/about6a.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/career1.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement-1.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement-2.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement-3.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement-4.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement1.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement2.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/cement3.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/contact-us.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/Directors.jpg">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/fav.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure1.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure10.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure11.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure13.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure14.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure15.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure16.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure18.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure2.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure20.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure21.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure22.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure23.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure24.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure25.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure26.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure27.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure29.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure30.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure31.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure32.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure33.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure36.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure38.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure39.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure4.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure40.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure41.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure42.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure43.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure46.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure47.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure49.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure5.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure51.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure52.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure53.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure54.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure55.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure56.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure57.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure58.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure59.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure6.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure60.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure61.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure62.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure63.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure64.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure65.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure66.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure67.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure68.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure69.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure7.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure70.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure72.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure73.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure74.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure75.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure76.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure77.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure78.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure79.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure8.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure81.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure82.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure83.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure84.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure85.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure86.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure87.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure88.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure89.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure90.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure91.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure92.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure93.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure94.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure95.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure96.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure97.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure98.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure/figure99.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure1.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure2.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure38.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure5 - Copy.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure5.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure57.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure58.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure6 - Copy.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure6.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure65.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure66.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure67.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure68 - Copy.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure68.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure73.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure74.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure75.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure76.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure94 - Copy.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/figure94.png">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/34th AGM Notice - 2013.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/35th AGM Notice - 2014.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/36th AGM Notice - 2015.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/37th AGM Notice - 2016.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/38th AGM Notice - 2017.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/39th AGM Notice - 2018.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/40th AGM Notice - 2019.pdf">
+      <publishTime>07/20/2024 11:30:10</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/41st AGM Notice - 2020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/42nd AGM Notice - 2021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/43rd AGM Notice - 2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/43rd AGM Notice - 2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/AGM Notices/EGM-27032024 Notice-2024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCCEDINGS-2019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/AGM-PROCEEDINGS-2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/ASCR31032024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/agm-egm/EGM-PROCEEDINGS-2024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/Annual-Return-2019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/Annual-Return-2020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/Annual-Return-2021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/Annual-Return-2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/Annual-Return-2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2012-2013.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2013-2014.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2014-2015.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2015-2016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2016-2017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2017-2018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2018-2019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2019-2020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2020-2021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2021-2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/annual/AR-2022-2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2015-2016/BMN31122015.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2016-2017/BMN30062016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2016-2017/BMN30092016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2016-2017/BMN31032016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2016-2017/BMN31122016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2017-2018/BMN30062017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2017-2018/BMN30092017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2017-2018/BMN31032017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2017-2018/BMN31122017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2018-2019/BMN30062018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2018-2019/BMN30092018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2018-2019/BMN31032018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2018-2019/BMN31122018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2019-2020/BMN30062019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2019-2020/BMN30092019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2019-2020/BMN31032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2019-2020/BMN31122019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2020-2021/BMN30062020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2020-2021/BMN30092020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2020-2021/BMN31032020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2020-2021/BMN31122020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2021-2022/BMN30062021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2021-2022/BMN30092021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2021-2022/BMN31032021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2021-2022/BMN31122021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2022-2023/BMN30062022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2022-2023/BMN30092022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2022-2023/BMN31032022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2022-2023/BMN31122022.PDF">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2023-2024/BMA30062023.PDF">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2023-2024/BMA31122023.PDF">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2023-2024/BMN30092023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2023-2024/BMN31032023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Board-Meeting-Notices/2024-2025/BMA31032024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/EGM-2024-RECORD-DATE.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Book-Closure/IBC2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40930092016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40930092017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40930092018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40930092019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40930092020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-40%2810%29/CERT40931032024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-30092016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-30092017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-30092018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-30092019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-30092020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-7%283%29/CCR73-31032024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2018-2019/DPR74531032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2019-2020/DPR74530062019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2019-2020/DPR74530092019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2019-2020/DPR74531032020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2019-2020/DPR74531122019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2020-2021/DPR74530062020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2020-2021/DPR74530092020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2020-2021/DPR74531032021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2020-2021/DPR74531122020.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2021-2022/DPR74530062021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2021-2022/DPR74530092021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2021-2022/DPR74531032022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2021-2022/DPR74531122021.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2022-2023/DPR74530062022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2022-2023/DPR74530092022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2022-2023/DPR74531032023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2022-2023/DPR74531122022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2023-2024/DPR74530062023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2023-2024/DPR74530092023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2023-2024/DPR74531032024.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Certificate-under-Regulation-74%285%29/2023-2024/DPR74531122023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/AM-15.02.2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/Kyc-15.02.2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/Kyc-20.11.2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/kyc-26.05.2023.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/Kyc-26.07.2022.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/SEBI-CIRCULAR-DECEMBER21.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/SEBI-CIRCULAR-November21.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Circulars to Shareholders/Unpaid dividend letter-2015-2016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2015-2016/CTW31032016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2015-2016/CTW31122015.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2016-2017/CTW30062016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2016-2017/CTW30092016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2016-2017/CTW31032017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2016-2017/CTW31122016.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2017-2018/CTW30062017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2017-2018/CTW30092017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2017-2018/CTW31032018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2017-2018/CTW31122017.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2018-2019/CTW30062018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2018-2019/CTW30092018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2018-2019/CTW31032019.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2018-2019/CTW31122018.pdf">
+      <publishTime>07/20/2024 11:30:11</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2019-2020/CTW30062019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2019-2020/CTW30092019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2019-2020/CTW31032020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2019-2020/CTW31122019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2020-2021/CTW30062020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2020-2021/CTW30092020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2020-2021/CTW31032021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2020-2021/CTW31122020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2021-2022/CTW30062021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2021-2022/CTW30092021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2021-2022/CTW31032022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2021-2022/CTW31122021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2022-2023/CTW30062022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2022-2023/CTW30092022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2022-2023/CTW31032023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2022-2023/CTW31122022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2023-2024/ctw30062023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2023-2024/ctw30092023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2023-2024/ctw31032024.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Closure of Trading Window/2023-2024/ctw31122023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2015-2016/CGR-31032016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2015-2016/CGR-31122015.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2016-2017/CGR-30062016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2016-2017/CGR-30092016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2016-2017/CGR-31032017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2016-2017/CGR-31122016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2017-2018/CGR-30062017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2017-2018/CGR-30092017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2017-2018/CGR-31032018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2017-2018/CGR-31122017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2018-2019/CGR-30062018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2018-2019/CGR-30092018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2018-2019/CGR-31032019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2018-2019/CGR-31122018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2019-2020/CGR-30062019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2019-2020/CGR-30092019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2019-2020/CGR-31032020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2019-2020/CGR-31122019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2020-2021/CGR-30062020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2020-2021/CGR-30092020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2020-2021/CGR-31032021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2020-2021/CGR-31122020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2021-2022/CGR-30062021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2021-2022/CGR-30092021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2021-2022/CGR-31032022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2021-2022/CGR-31122021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2022-2023/CGR-30062022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2022-2023/CGR-30092022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2022-2023/CGR-31032023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2022-2023/CGR-31122022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2023-2024/CGR-30062023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2023-2024/CGR-30092023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2023-2024/CGR-31032024.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Corporate-Governance-Reports/2023-2024/CGR-31122023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2015-2016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2016-2017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2017-2018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2018-2019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2019-2020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2020-2021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2021-2022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/CSR-Reports/CSR-2022-2023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2015-2016/AFR-31032016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2015-2016/UAFR-30062015.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2015-2016/UAFR-30092015.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2015-2016/UAFR-31122015.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2016-2017/AFR-31032017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2016-2017/UAFR-30062016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2016-2017/UAFR-30092016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2016-2017/UAFR-31122016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2017-2018/AFR-31032018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2017-2018/UAFR-30062017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2017-2018/UAFR-30092017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2017-2018/UAFR-31122017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2018-2019/AFR-31032019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2018-2019/UAFR-30062018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2018-2019/UAFR-30092018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2018-2019/UAFR-31122018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2019-2020/AFR-31032020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2019-2020/UAFR-30062019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2019-2020/UAFR-30092019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2019-2020/UAFR-31122019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2020-2021/AFR-31032021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2020-2021/UAFR-30062020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2020-2021/UAFR-30092020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2020-2021/UAFR-31122020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2021-2022/AFR-31032022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2021-2022/UAFR-30062021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2021-2022/UAFR-30092021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2021-2022/UAFR-31122021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2022-2023/AFR31032023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2022-2023/UAFR-30062022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2022-2023/UAFR-30092022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2022-2023/UAFR-31122022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2023-2024/AFR31032024.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2023-2024/UAFR-30062023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2023-2024/UAFR-30092023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Financial-Results/2023-2024/UAFR-31122023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2015-2016/IGR31032016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2015-2016/IGR31122015.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2016-2017/IGR30062016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2016-2017/IGR30092016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2016-2017/IGR31032017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2016-2017/IGR31122016.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2017-2018/IGR30062017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2017-2018/IGR30092017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2017-2018/IGR31032018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2017-2018/IGR31122017.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2018-2019/IGR30062018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2018-2019/IGR30092018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2018-2019/IGR31032019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2018-2019/IGR31122018.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2019-2020/IGR30062019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2019-2020/IGR30092019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2019-2020/IGR31032020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2019-2020/IGR31122019.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2020-2021/IGR30062020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2020-2021/IGR30092020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2020-2021/IGR31032021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2020-2021/IGR31122020.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2021-2022/IGR30062021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2021-2022/IGR30092021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2021-2022/IGR31032022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2021-2022/IGR31122021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2022-2023/IGR30062022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2022-2023/IGR30092022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2022-2023/IGR31032023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2022-2023/IGR31122022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2023-2024/IGR30062023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2023-2024/IGR30092023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2023-2024/IGR31032024.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/investor-grievance-Report/2023-2024/IGR31122023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-A-Affidavit-for-issuance-of-duplicate-securities.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-B-Indemnity-for-issuance-of-duplicate-securities.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-1.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-2.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-3.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-4.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-5-Individual-Affidavit-by-Legal-Heirs.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-5-Joint-Affidavit-by-Legal-Heirs.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-5-NOC-by-Legal-Heirs.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-ISR-5.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-SH-13.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/KYC/Form-SH-14.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2021-2022/Outcome-03.02.2022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2021-2022/Outcome-03.08.2021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2021-2022/Outcome-11.11.2021.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2021-2022/Outcome-25.05.2022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2022-2023/Outcome-10.02.2023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2022-2023/Outcome-10.11.2022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2022-2023/Outcome-11.08.2022.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2022-2023/Outcome-22.05.2023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2023-2024/Outcome-02.11.2023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2023-2024/Outcome-04.08.2023.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2023-2024/Outcome-13.02.2024.pdf">
+      <publishTime>07/20/2024 11:30:12</publishTime>
+    </File>
+    <File Include="img/investors/Outcome of Board Meetings/2023-2024/Outcome-23.05.2024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2020-2021/41st AGM Notice.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2020-2021/AFR-032021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2020-2021/iepf-2020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2020-2021/UAFR-122020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/42nd AGM Notice.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/AFR-032022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/IEPF-2021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/UAFR-062021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/UAFR-092021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2021-2022/UAFR-122021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/43rd AGM Notice.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/AFR-032023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/IEPF-2022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/UAFR-062022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/UAFR-092022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2022-2023/UAFR-122022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/44th AGM Notice.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/AFR-032024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/EGM Notice 2024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/IEPF-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/UAFR-062023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/UAFR-092023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Paper Advertisements/2023-2024/UAFR-122023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Code-of-Conduct-for-Directors-and-SMPs.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Code-of-Conduct-to-regulate-monitor-report-trading-by-insiders.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/CSR-Policy.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Disclosure-of-UPSI-Policy.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Independent-Directors-Code.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Policy-for-Determining-Materiality-of-an-event-or-information.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Policy-on-Related-Party-Transactions.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Preservation-of-Documents.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Remuneration-Policy.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Risk-Management.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Terms-and-conditions-of-appointment-of-independent directors.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/policies/Whistle-Blower-policy.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2015-2016/RSA31032016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2015-2016/RSA31122015.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2016-2017/RSA30062016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2016-2017/RSA30092016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2016-2017/RSA31032017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2016-2017/RSA31122016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2017-2018/RSA30062017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2017-2018/RSA30092017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2017-2018/RSA31032018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2017-2018/RSA31122017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2018-2019/RSA30062018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2018-2019/RSA30092018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2018-2019/RSA31032019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2018-2019/RSA31122018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2019-2020/RSA30062019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2019-2020/RSA30092019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2019-2020/RSA31032020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2019-2020/RSA31122019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2020-2021/RSA30062020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2020-2021/RSA30092020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2020-2021/RSA31032021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2020-2021/RSA31122020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2021-2022/RSA30062021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2021-2022/RSA30092021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2021-2022/RSA31032022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2021-2022/RSA31122021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2022-2023/RSA30062022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2022-2023/RSA30092022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2022-2023/RSA31032023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2022-2023/RSA31122022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2023-2024/RSA30062023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2023-2024/RSA30092023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2023-2024/RSA31032024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Reconciliation  of Share Capital Audit/2023-2024/RSA31122023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appointment of Director.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appointment of Independent Director-Smt. Hima Bindu M.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appt. of CEO Proposal.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appt. of CS &amp; Change in KMP March 2022APPOINTMENT CSCO.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appt. of Directors at AGM 2019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Appt. of Smt.Varalakshmi as a Director.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Closure of Operations PCB.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Constitution of Materiality of Event Committee.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Covid Suspension.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Demise of Shri Venkateswarlu, CMD.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Disconnection of Power Supply-PCB.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Impact of Covid.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Reapppoinmentof Directors.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/RECONSTITUTED RISK MC.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/RECONSTITUTION NRC2018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Reconstitution of Committees 2017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Reconstitution of CSR Committee 2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Reconstitution of Risk M Committee 2017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Regulation 30 - tax matter.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Regulation 30-tax matter.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Release of Pledged shares 2020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Resignation of Directors 2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Resignation of Independent Director.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Resignation of Sri Chengappa.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Resignation of Sri Madhusudhan Rao.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Resumption of Operations.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Revocation of Directions of PCB.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Re_Constitution of Materiality of Event Committee.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Regulation 30 Disclosures/Update reg Closure-PCB.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2018-2019/RPT31032019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2019-2020/RPT30092019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2019-2020/RPT31032020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2020-2021/RPT30092020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2020-2021/RPT31032021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2021-2022/RPT30092021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2021-2022/RPT31032022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2022-2023/RPT30092022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2022-2023/RPT31032023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2023-2024/RPT30092023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Related-Party-Transactions/2023-2024/RPT31032024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR-EGM2024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20142015.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20152016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20162017.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20172018.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20182019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20192020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20202021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20212022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Scrutinizers Reports/EVR20222023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/REG.10%285%29-SAST-2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/Reg.10%285%29-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/Reg.10%286%29-SAST-2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/Reg.10%286%29-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/Reg.10%286%29-SP-SAST-2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 10/Reg.10%287%29-SAST-2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-10000 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-1105 shares-SAST-2019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-1184 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-121 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-1290 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-19350 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-3032 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-36400 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-38000 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-4077 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-5032 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-6066 shares-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-RJ-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-SJ-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-SP-SAST-2016.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 29%282%29/Reg.29%282%29-SRPJ-SAST-2023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2019-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2020-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2021-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2022-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2023-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 30%281%29/Reg.30%281%29-2024-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 31%284%29/Reg.31%284%29-2022-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 31%284%29/Reg.31%284%29-2023-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI %28SAST%29 Filings/Regulation 31%284%29/Reg.31%284%29-2024-SAST.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2022-2023/sdd30092022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2022-2023/sdd31032023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2022-2023/sdd31122022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2023-2024/sdd30062023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2023-2024/sdd30092023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2023-2024/sdd31032024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/SEBI%28PIT%29-SDD-Compliance-Certificates/2023-2024/sdd31122023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032019.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032020.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032021.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032022.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032023.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/secretarial/ASCR31032024.pdf">
+      <publishTime>07/20/2024 11:30:13</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2015-2016/SHP-31032016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2015-2016/SHP-31122015.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2016-2017/SHP-30062016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2016-2017/SHP-30092016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2016-2017/SHP-31032017.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2016-2017/SHP-31122016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2017-2018/SHP-30062017.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2017-2018/SHP-30092017.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2017-2018/SHP-31032018.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2017-2018/SHP-31122017.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2018-2019/SHP-30062018.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2018-2019/SHP-30092018.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2018-2019/SHP-31032019.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2018-2019/SHP-31122018.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2019-2020/SHP-30062019.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2019-2020/SHP-30092019.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2019-2020/SHP-31032020.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2019-2020/SHP-31122019.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2020-2021/SHP-30062020.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2020-2021/SHP-30092020.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2020-2021/SHP-31032021.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2020-2021/SHP-31122020.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2021-2022/SHP-30062021.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2021-2022/SHP-30092021.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2021-2022/SHP-31032022.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2021-2022/SHP-31122021.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2022-2023/SHP-30062022.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2022-2023/SHP-30092022.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2022-2023/SHP-31032023.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2022-2023/SHP-31122022.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2023-2024/SHP-30062023.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2023-2024/SHP-30092023.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2023-2024/SHP-31032024.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/Shareholding-Pattern/2023-2024/SHP-31122023.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2010-2011.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2011-2012.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2012-2013.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2013-2014.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2014-2015.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividends/Share transfer to IEPF-2015-2016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/2010-2011-iepf.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/2011-2012-iepf.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/2012-2013-iepf.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/2013-2014-iepf.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/2014-2015-iepf.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/dvd2016-17.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/income-tax-forms.zip">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/INCOME-TAX-FORMS/Form10F.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/INCOME-TAX-FORMS/Form15G.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/INCOME-TAX-FORMS/Form15H.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/kyc-formats.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/kyc-letter-may-2023.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/sebi-circulars-kyc.zip">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/SEBI-CIRCULARS-KYC/SEBI-CIRCULAR-DECEMBER21.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/SEBI-CIRCULARS-KYC/SEBI-CIRCULAR-November21.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/investors/UnpaidDividents/unpaid-2015-2016.pdf">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/login.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/logo-name.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/logo1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/logo1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/logo2.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/ourfinancials-quaterlyreport.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/pdf_icon.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/pdf_icon1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power-1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power-2.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power-3.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/Power1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power3.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power4.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/power44.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/preloader.gif">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/slider/slider1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/slider/slider2.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/slider/slider3.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/slider/slider4.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/slider/Thumbs.db">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/about1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/Board.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/breadcrumb1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/career.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/cement1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/Committees.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/contact.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/investors.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/login1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/power2.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/strips/sugar1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar-1.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar-2.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar-3.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar2.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/sugar3.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/team-1.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/team-2.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/team4.jpg">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/thumb.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/Thumbs.db">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="img/website-under-construction.png">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>07/21/2024 00:23:28</publishTime>
+    </File>
+    <File Include="investor-grievance-reports.html">
+      <publishTime>07/21/2024 00:23:36</publishTime>
+    </File>
+    <File Include="js/AddAgmEgmProceedings.js">
+      <publishTime>06/21/2024 21:53:05</publishTime>
+    </File>
+    <File Include="js/AddAnnualReport.js">
+      <publishTime>06/17/2024 19:54:08</publishTime>
+    </File>
+    <File Include="js/AddBoardMeetingNotices.js">
+      <publishTime>06/19/2024 23:31:52</publishTime>
+    </File>
+    <File Include="js/AddBoardMembers.js">
+      <publishTime>06/15/2024 15:38:55</publishTime>
+    </File>
+    <File Include="js/AddBookClosure.js">
+      <publishTime>06/21/2024 23:03:31</publishTime>
+    </File>
+    <File Include="js/AddCertificateUnderRegulation40%2810%29.js">
+      <publishTime>06/20/2024 23:23:20</publishTime>
+    </File>
+    <File Include="js/AddCertificateUnderRegulation7%283%29.js">
+      <publishTime>06/21/2024 19:51:50</publishTime>
+    </File>
+    <File Include="js/AddCertificateUnderRegulation74%285%29.js">
+      <publishTime>06/21/2024 21:24:19</publishTime>
+    </File>
+    <File Include="js/AddCommittee.js">
+      <publishTime>06/15/2024 17:02:40</publishTime>
+    </File>
+    <File Include="js/AddCommunicationswithShareholders.js">
+      <publishTime>06/17/2024 23:35:48</publishTime>
+    </File>
+    <File Include="js/AddCompositionofBoardCommittees.js">
+      <publishTime>06/15/2024 17:43:43</publishTime>
+    </File>
+    <File Include="js/AddContactDetails.js">
+      <publishTime>06/15/2024 22:18:57</publishTime>
+    </File>
+    <File Include="js/AddContactInfo.js">
+      <publishTime>07/19/2024 22:22:44</publishTime>
+    </File>
+    <File Include="js/AddCorporateGovernanceReport.js">
+      <publishTime>06/16/2024 22:40:41</publishTime>
+    </File>
+    <File Include="js/AddCsrReports.js">
+      <publishTime>06/16/2024 13:09:36</publishTime>
+    </File>
+    <File Include="js/AddDesignations.js">
+      <publishTime>06/15/2024 14:40:10</publishTime>
+    </File>
+    <File Include="js/AddDetailsofRTA.js">
+      <publishTime>06/15/2024 23:10:31</publishTime>
+    </File>
+    <File Include="js/AddDisclosure.js">
+      <publishTime>06/15/2024 11:54:06</publishTime>
+    </File>
+    <File Include="js/AddDisclosureUnderRegulation302015.js">
+      <publishTime>06/19/2024 22:27:17</publishTime>
+    </File>
+    <File Include="js/AddFinancialResults.js">
+      <publishTime>06/16/2024 18:33:31</publishTime>
+    </File>
+    <File Include="js/AddGeneralAnnouncements.js">
+      <publishTime>07/22/2024 22:38:32</publishTime>
+    </File>
+    <File Include="js/AddInvestorGrievanceReports.js">
+      <publishTime>06/16/2024 21:58:14</publishTime>
+    </File>
+    <File Include="js/AddKycComplianceDocuments.js">
+      <publishTime>06/18/2024 22:59:58</publishTime>
+    </File>
+    <File Include="js/AddMail.js">
+      <publishTime>07/19/2024 23:06:40</publishTime>
+    </File>
+    <File Include="js/AddNoticesofGeneralMeetings.js">
+      <publishTime>06/21/2024 23:28:52</publishTime>
+    </File>
+    <File Include="js/AddOutcomeofBoardMeeting.js">
+      <publishTime>06/19/2024 23:54:20</publishTime>
+    </File>
+    <File Include="js/AddPaperAdvertisements.js">
+      <publishTime>06/20/2024 21:09:13</publishTime>
+    </File>
+    <File Include="js/Addpolicies.js">
+      <publishTime>06/16/2024 00:43:11</publishTime>
+    </File>
+    <File Include="js/AddReconciliationOfShareCapitalAudit.js">
+      <publishTime>06/22/2024 11:58:51</publishTime>
+    </File>
+    <File Include="js/AddRelatedPartyTransactions.js">
+      <publishTime>06/22/2024 16:26:58</publishTime>
+    </File>
+    <File Include="js/AddScrutinizersReports.js">
+      <publishTime>06/22/2024 11:29:40</publishTime>
+    </File>
+    <File Include="js/AddSEBI%28PIT%29SDDComplianceCertificates.js">
+      <publishTime>06/22/2024 13:21:59</publishTime>
+    </File>
+    <File Include="js/AddSebiSastFilings.js">
+      <publishTime>06/22/2024 12:46:58</publishTime>
+    </File>
+    <File Include="js/AddSecretarialComplianceReports.js">
+      <publishTime>06/21/2024 22:37:22</publishTime>
+    </File>
+    <File Include="js/AddShareholdersInformation.js">
+      <publishTime>06/17/2024 23:06:11</publishTime>
+    </File>
+    <File Include="js/AddShareholdingPattern.js">
+      <publishTime>06/16/2024 15:18:29</publishTime>
+    </File>
+    <File Include="js/AddTradingWindowClosure.js">
+      <publishTime>06/20/2024 22:27:24</publishTime>
+    </File>
+    <File Include="js/AddUnpaidDividendIepf.js">
+      <publishTime>06/17/2024 22:14:43</publishTime>
+    </File>
+    <File Include="js/AddUser.js">
+      <publishTime>07/20/2024 23:46:18</publishTime>
+    </File>
+    <File Include="js/AgmEgmProceedings.js">
+      <publishTime>06/21/2024 21:58:47</publishTime>
+    </File>
+    <File Include="js/AnnualReport.js">
+      <publishTime>06/17/2024 20:24:03</publishTime>
+    </File>
+    <File Include="js/BoardMeetingNotices.js">
+      <publishTime>06/19/2024 23:38:28</publishTime>
+    </File>
+    <File Include="js/BoardOfDirectors.js">
+      <publishTime>06/15/2024 16:26:43</publishTime>
+    </File>
+    <File Include="js/BookClosure.js">
+      <publishTime>06/21/2024 23:11:19</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/CareerData.js">
+      <publishTime>06/24/2024 21:25:18</publishTime>
+    </File>
+    <File Include="js/CareerDetails.js">
+      <publishTime>07/20/2024 20:24:48</publishTime>
+    </File>
+    <File Include="js/CertificateUnderRegulation40%2810%29.js">
+      <publishTime>06/20/2024 23:37:51</publishTime>
+    </File>
+    <File Include="js/CertificateUnderRegulation7%283%29.js">
+      <publishTime>06/21/2024 19:59:43</publishTime>
+    </File>
+    <File Include="js/CertificateUnderRegulation74%285%29.js">
+      <publishTime>06/21/2024 21:30:39</publishTime>
+    </File>
+    <File Include="js/circle-progress.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/CommunicationswithShareholders.js">
+      <publishTime>06/17/2024 23:42:45</publishTime>
+    </File>
+    <File Include="js/CompositionofBoardCommittees.js">
+      <publishTime>06/15/2024 18:02:04</publishTime>
+    </File>
+    <File Include="js/ContactData.js">
+      <publishTime>06/22/2024 15:59:10</publishTime>
+    </File>
+    <File Include="js/ContactDetailsofOfficials.js">
+      <publishTime>06/15/2024 22:32:05</publishTime>
+    </File>
+    <File Include="js/ContactInfoDetails.js">
+      <publishTime>07/20/2024 00:32:37</publishTime>
+    </File>
+    <File Include="js/CorporateGovernanceReport.js">
+      <publishTime>06/16/2024 22:46:35</publishTime>
+    </File>
+    <File Include="js/CsrReports.js">
+      <publishTime>06/16/2024 13:20:33</publishTime>
+    </File>
+    <File Include="js/DetailsofRTA.js">
+      <publishTime>06/15/2024 23:22:06</publishTime>
+    </File>
+    <File Include="js/DisclosureUnderRegulation302015.js">
+      <publishTime>06/19/2024 22:41:50</publishTime>
+    </File>
+    <File Include="js/disclosure_under_regulations_sebi.js">
+      <publishTime>06/15/2024 12:06:23</publishTime>
+    </File>
+    <File Include="js/FinancialResults.js">
+      <publishTime>06/16/2024 18:46:54</publishTime>
+    </File>
+    <File Include="js/GeneralAnnouncements.js">
+      <publishTime>07/24/2024 23:13:46</publishTime>
+    </File>
+    <File Include="js/home.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/HrJobDescription.js">
+      <publishTime>07/20/2024 16:33:17</publishTime>
+    </File>
+    <File Include="js/InvestorGrievanceReports.js">
+      <publishTime>06/16/2024 22:08:38</publishTime>
+    </File>
+    <File Include="js/jquery-3.4.1.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/jquery.meanmenu.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/KakatiyaCareer.js">
+      <publishTime>07/25/2024 22:06:51</publishTime>
+    </File>
+    <File Include="js/KakatiyaCareerDetails.js">
+      <publishTime>07/25/2024 23:17:15</publishTime>
+    </File>
+    <File Include="js/KycComplianceDocuments.js">
+      <publishTime>06/18/2024 23:14:55</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/NoticesofGeneralMeetings.js">
+      <publishTime>06/21/2024 23:34:02</publishTime>
+    </File>
+    <File Include="js/OutcomeofBoardMeeting.js">
+      <publishTime>06/20/2024 00:00:47</publishTime>
+    </File>
+    <File Include="js/PaperAdvertisements.js">
+      <publishTime>06/20/2024 21:40:08</publishTime>
+    </File>
+    <File Include="js/policy.js">
+      <publishTime>06/16/2024 00:51:03</publishTime>
+    </File>
+    <File Include="js/ReconciliationOfShareCapitalAudit.js">
+      <publishTime>06/22/2024 12:04:40</publishTime>
+    </File>
+    <File Include="js/RelatedPartyTransactions.js">
+      <publishTime>06/22/2024 16:31:47</publishTime>
+    </File>
+    <File Include="js/sal.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/ScrutinizersReports.js">
+      <publishTime>06/22/2024 11:37:21</publishTime>
+    </File>
+    <File Include="js/SEBI%28PIT%29SDDComplianceCertificates.js">
+      <publishTime>06/22/2024 13:31:35</publishTime>
+    </File>
+    <File Include="js/SebiSastFilings.js">
+      <publishTime>06/22/2024 13:04:48</publishTime>
+    </File>
+    <File Include="js/SecretarialComplianceReports.js">
+      <publishTime>06/21/2024 22:43:14</publishTime>
+    </File>
+    <File Include="js/ShareholdersInformation.js">
+      <publishTime>06/17/2024 23:15:00</publishTime>
+    </File>
+    <File Include="js/ShareholdingPattern.js">
+      <publishTime>06/16/2024 18:05:21</publishTime>
+    </File>
+    <File Include="js/slick.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/slick.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/TradingWindowClosure.js">
+      <publishTime>06/20/2024 22:33:13</publishTime>
+    </File>
+    <File Include="js/UnpaidDividendIepf.js">
+      <publishTime>06/17/2024 22:24:37</publishTime>
+    </File>
+    <File Include="js/validator.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="js/wow.min.js">
+      <publishTime>07/20/2024 11:30:14</publishTime>
+    </File>
+    <File Include="kyc-compliance-documents - Copy.html">
+      <publishTime>07/21/2024 00:57:07</publishTime>
+    </File>
+    <File Include="kyc-compliance-documents.html">
+      <publishTime>07/22/2024 22:45:24</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>07/22/2024 20:44:46</publishTime>
+    </File>
+    <File Include="management.html">
+      <publishTime>07/21/2024 01:03:40</publishTime>
+    </File>
+    <File Include="notices-of-general-meetings.html">
+      <publishTime>07/22/2024 22:50:52</publishTime>
+    </File>
+    <File Include="outcome-of-board-meeting.html">
+      <publishTime>07/22/2024 22:46:54</publishTime>
+    </File>
+    <File Include="paper-advertisements.html">
+      <publishTime>07/22/2024 22:47:27</publishTime>
+    </File>
+    <File Include="policies.html">
+      <publishTime>07/21/2024 00:53:51</publishTime>
+    </File>
+    <File Include="power.html">
+      <publishTime>07/21/2024 00:54:02</publishTime>
+    </File>
+    <File Include="profile.html">
+      <publishTime>07/21/2024 00:54:12</publishTime>
+    </File>
+    <File Include="reconciliation-of-share-capital-audit-sebi.html">
+      <publishTime>07/21/2024 00:54:22</publishTime>
+    </File>
+    <File Include="reconciliation-of-share-capital-audit.html">
+      <publishTime>07/21/2024 00:54:33</publishTime>
+    </File>
+    <File Include="Recovery.aspx">
+      <publishTime>07/21/2024 00:54:44</publishTime>
+    </File>
+    <File Include="related-party-transactions.html">
+      <publishTime>07/21/2024 00:54:55</publishTime>
+    </File>
+    <File Include="scrutinizers-report.html">
+      <publishTime>07/21/2024 00:55:05</publishTime>
+    </File>
+    <File Include="sebi-pit-sdd-compliance-certificates.html">
+      <publishTime>07/21/2024 00:55:18</publishTime>
+    </File>
+    <File Include="sebi-sast-filings.html">
+      <publishTime>07/21/2024 00:55:34</publishTime>
+    </File>
+    <File Include="sebi-sdd-compliance-certificates.html">
+      <publishTime>07/21/2024 00:55:44</publishTime>
+    </File>
+    <File Include="secretarial-compliance-reports.html">
+      <publishTime>07/22/2024 22:49:59</publishTime>
+    </File>
+    <File Include="secretarial-compliance-reports1.html">
+      <publishTime>07/21/2024 00:56:03</publishTime>
+    </File>
+    <File Include="shareholders-information.html">
+      <publishTime>07/21/2024 00:56:18</publishTime>
+    </File>
+    <File Include="shareholding-pattern.html">
+      <publishTime>07/21/2024 00:56:27</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>06/14/2024 21:32:13</publishTime>
+    </File>
+    <File Include="sugar.html">
+      <publishTime>07/21/2024 00:56:36</publishTime>
+    </File>
+    <File Include="testing.html">
+      <publishTime>07/21/2024 00:56:46</publishTime>
+    </File>
+    <File Include="trading-window-closure.html">
+      <publishTime>07/22/2024 22:47:55</publishTime>
+    </File>
+    <File Include="unpaid-dividend-iepf.html">
+      <publishTime>07/21/2024 00:57:06</publishTime>
+    </File>
+    <File Include="vendor/nivo-slider/home.js">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/nivo-slider/jquery.nivo.slider.js">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/nivo-slider/nivo-slider.css">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/owlcarousel/owl.carousel.min.css">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/owlcarousel/owl.carousel.min.js">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/owlcarousel/owl.theme.default.min.css">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="vendor/owlcarousel/owl.video.play.png">
+      <publishTime>06/14/2024 21:32:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/21/2024 01:06:59</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.eot">
+      <publishTime>07/20/2024 11:30:01</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.svg">
+      <publishTime>07/20/2024 11:30:02</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.ttf">
+      <publishTime>07/20/2024 11:30:02</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff2">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400d41d.eot">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.eot">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.svg">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.ttf">
+      <publishTime>07/20/2024 11:30:05</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff2">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400d41d.eot">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.eot">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.svg">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.ttf">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff2">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900d41d.eot">
+      <publishTime>07/20/2024 11:30:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

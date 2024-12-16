@@ -1,0 +1,1668 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32C0AD55-60CC-49B9-8C90-2EA7897A4523}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kakatiyacements</RootNamespace>
+    <AssemblyName>kakatiyacements</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44398</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.19.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AddAgmEgmProceedings.aspx" />
+    <Content Include="Admin\AddAnnualReport.aspx" />
+    <Content Include="Admin\AddBoardMeetingNotices.aspx" />
+    <Content Include="Admin\AddBookClosure.aspx" />
+    <Content Include="Admin\AddCareersDetails.asmx" />
+    <Content Include="Admin\AddCertificateUnderRegulation40%2810%29.asmx" />
+    <Content Include="Admin\AddCertificateUnderRegulation7%283%29.aspx" />
+    <Content Include="Admin\AddCertificateUnderRegulation74%285%29.aspx" />
+    <Content Include="Admin\AddCommittees.aspx" />
+    <Content Include="Admin\AddCommunicationswithShareholders.aspx" />
+    <Content Include="Admin\AddCompositionofBoardCommittees.aspx" />
+    <Content Include="Admin\AddContactData.aspx" />
+    <Content Include="Admin\AddContactDetails.aspx" />
+    <Content Include="Admin\AddContactInfo.asmx" />
+    <Content Include="Admin\AddCorporateGovernanceReport.aspx" />
+    <Content Include="Admin\AddCsrReports.asmx" />
+    <Content Include="Admin\AddDesignations.aspx" />
+    <Content Include="Admin\AddDetailsofRTA.aspx" />
+    <Content Include="Admin\AddDisclosure.aspx" />
+    <Content Include="Admin\AddDisclosureUnderRegulation302015.asmx" />
+    <Content Include="Admin\AddFinancialResults.aspx" />
+    <Content Include="Admin\AddGeneralAnnouncements.aspx" />
+    <Content Include="Admin\AddInvestorGrievanceReports.aspx" />
+    <Content Include="Admin\AddKycComplianceDocuments.aspx" />
+    <Content Include="Admin\AddNoticesofGeneralMeetings.aspx" />
+    <Content Include="Admin\AddOutcomeofBoardMeeting.asmx" />
+    <Content Include="Admin\AddPaperAdvertisements.aspx" />
+    <Content Include="Admin\AddPolicies.aspx" />
+    <Content Include="Admin\AddReconciliationOfShareCapitalAudit.aspx" />
+    <Content Include="Admin\AddRelatedPartyTransactions.aspx" />
+    <Content Include="Admin\AddScrutinizersReports.aspx" />
+    <Content Include="Admin\AddSEBI%28PIT%29SDDComplianceCertificates.aspx" />
+    <Content Include="Admin\AddSebiSastFilings.aspx" />
+    <Content Include="Admin\AddSecretarialComplianceReports.aspx" />
+    <Content Include="Admin\AddShareholdersInformation.asmx" />
+    <Content Include="Admin\AddShareholdingPattern.aspx" />
+    <Content Include="Admin\AddTradingWindowClosure.aspx" />
+    <Content Include="Admin\AddUnpaidDividendIepf.aspx" />
+    <Content Include="Admin\AddUser.aspx" />
+    <Content Include="Admin\AgmEgmProceedings.asmx" />
+    <Content Include="Admin\AnnualReport.asmx" />
+    <Content Include="Admin\BoardMeetingNotices.asmx" />
+    <Content Include="Admin\BoardofDirectors.aspx" />
+    <Content Include="Admin\BoardOfDirectorsData.asmx" />
+    <Content Include="Admin\BookClosure.asmx" />
+    <Content Include="Admin\CareersData.aspx" />
+    <Content Include="Admin\CertificateUnderRegulation40%2810%29.aspx" />
+    <Content Include="Admin\CertificateUnderRegulation7%283%29.asmx" />
+    <Content Include="Admin\CertificateUnderRegulation74%285%29.asmx" />
+    <Content Include="Admin\Committees.asmx" />
+    <Content Include="Admin\CommunicationswithShareholders.asmx" />
+    <Content Include="Admin\CompositionofBoardCommittees.asmx" />
+    <Content Include="Admin\ContactData.asmx" />
+    <Content Include="Admin\ContactDetails.asmx" />
+    <Content Include="Admin\ContactInfo.aspx" />
+    <Content Include="Admin\CorporateGovernanceReport.asmx" />
+    <Content Include="Admin\CsrReports.aspx" />
+    <Content Include="Admin\Designations.asmx" />
+    <Content Include="Admin\DetailsofRTA.asmx" />
+    <Content Include="Admin\Disclosure.asmx" />
+    <Content Include="Admin\DisclosureUnderRegulation302015.aspx" />
+    <Content Include="Admin\FinancialResults.asmx" />
+    <Content Include="Admin\GeneralAnnouncements.asmx" />
+    <Content Include="Admin\InvestorGrievanceReports.asmx" />
+    <Content Include="Admin\KycComplianceDocuments.asmx" />
+    <Content Include="Admin\MailData.asmx" />
+    <Content Include="Admin\MailData.aspx" />
+    <Content Include="Admin\NoticesofGeneralMeetings.asmx" />
+    <Content Include="Admin\OutcomeofBoardMeeting.aspx" />
+    <Content Include="Admin\PaperAdvertisements.asmx" />
+    <Content Include="Admin\policies.asmx" />
+    <Content Include="Admin\ReconciliationOfShareCapitalAudit.asmx" />
+    <Content Include="Admin\RelatedPartyTransactions.asmx" />
+    <Content Include="Admin\ScrutinizersReports.asmx" />
+    <Content Include="Admin\SEBI%28PIT%29SDDComplianceCertificates.asmx" />
+    <Content Include="Admin\SebiSastFilings.asmx" />
+    <Content Include="Admin\SecretarialComplianceReports.asmx" />
+    <Content Include="Admin\ShareholdersInformation.aspx" />
+    <Content Include="Admin\ShareholdingPattern.asmx" />
+    <Content Include="Admin\TradingWindowClosure.asmx" />
+    <Content Include="Admin\UnpaidDividendIepf.asmx" />
+    <Content Include="Admin\User.asmx" />
+    <Content Include="agm-egm-proceedings.html" />
+    <Content Include="annual-report.html" />
+    <Content Include="board-meeting-notices.html" />
+    <Content Include="board-of-directors-and-KMPs.html" />
+    <Content Include="book-closure.html" />
+    <Content Include="careers.aspx" />
+    <Content Include="careers.html" />
+    <Content Include="cement.html" />
+    <Content Include="certificate-under-regulation-40%2810%29.html" />
+    <Content Include="certificate-under-regulation-7%283%29.html" />
+    <Content Include="certificate-under-regulation-74%285%29.html" />
+    <Content Include="communications-with-shareholders.html" />
+    <Content Include="composition-of-board-committees.html" />
+    <Content Include="contact-details-of-official-responsible.html" />
+    <Content Include="contact-us.aspx" />
+    <Content Include="corporate-governance-report.html" />
+    <Content Include="csr-reports.html" />
+    <Content Include="css\ajax-loader.gif" />
+    <Content Include="css\all.min.css" />
+    <Content Include="css\all.min11.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\contact-page.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\meanmenu.min.css" />
+    <Content Include="css\sal.css" />
+    <Content Include="css\slick-theme.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\style.css" />
+    <Content Include="details-of-rta.html" />
+    <Content Include="disclosure-under-regulation-30-of-sebi-%28lodr%29-regulations-2015.html" />
+    <Content Include="disclosure-under-regulations-sebi - Copy.html" />
+    <Content Include="disclosure-under-regulations-sebi.html" />
+    <Content Include="financial-results.html" />
+    <Content Include="GeneralAnnouncements.html" />
+    <Content Include="Global.asax" />
+    <Content Include="HrData\CareerData.asmx" />
+    <Content Include="HrData\CareerPdf\pdf_icon.png" />
+    <Content Include="HrData\GetCareesData.aspx" />
+    <Content Include="HrData\JobDescription.asmx" />
+    <Content Include="HrData\JobDescription.aspx" />
+    <Content Include="img\about6.jpg" />
+    <Content Include="img\about6a.jpg" />
+    <Content Include="img\career1.jpg" />
+    <Content Include="img\cement-1.jpg" />
+    <Content Include="img\cement-2.jpg" />
+    <Content Include="img\cement-3.jpg" />
+    <Content Include="img\cement-4.jpg" />
+    <Content Include="img\cement.jpg" />
+    <Content Include="img\cement1.png" />
+    <Content Include="img\cement2.jpg" />
+    <Content Include="img\cement3.jpg" />
+    <Content Include="img\contact-us.jpg" />
+    <Content Include="img\Directors.jpg" />
+    <Content Include="img\fav.png" />
+    <Content Include="img\figure1.png" />
+    <Content Include="img\figure2.png" />
+    <Content Include="img\figure38.png" />
+    <Content Include="img\figure5 - Copy.png" />
+    <Content Include="img\figure5.png" />
+    <Content Include="img\figure57.png" />
+    <Content Include="img\figure58.png" />
+    <Content Include="img\figure6 - Copy.png" />
+    <Content Include="img\figure6.png" />
+    <Content Include="img\figure65.png" />
+    <Content Include="img\figure66.png" />
+    <Content Include="img\figure67.png" />
+    <Content Include="img\figure68 - Copy.png" />
+    <Content Include="img\figure68.png" />
+    <Content Include="img\figure73.png" />
+    <Content Include="img\figure74.png" />
+    <Content Include="img\figure75.png" />
+    <Content Include="img\figure76.png" />
+    <Content Include="img\figure94 - Copy.png" />
+    <Content Include="img\figure94.png" />
+    <Content Include="img\figure\figure1.png" />
+    <Content Include="img\figure\figure10.png" />
+    <Content Include="img\figure\figure11.png" />
+    <Content Include="img\figure\figure13.png" />
+    <Content Include="img\figure\figure14.png" />
+    <Content Include="img\figure\figure15.png" />
+    <Content Include="img\figure\figure16.png" />
+    <Content Include="img\figure\figure18.png" />
+    <Content Include="img\figure\figure2.png" />
+    <Content Include="img\figure\figure20.png" />
+    <Content Include="img\figure\figure21.png" />
+    <Content Include="img\figure\figure22.png" />
+    <Content Include="img\figure\figure23.png" />
+    <Content Include="img\figure\figure24.png" />
+    <Content Include="img\figure\figure25.png" />
+    <Content Include="img\figure\figure26.png" />
+    <Content Include="img\figure\figure27.png" />
+    <Content Include="img\figure\figure29.png" />
+    <Content Include="img\figure\figure30.png" />
+    <Content Include="img\figure\figure31.png" />
+    <Content Include="img\figure\figure32.png" />
+    <Content Include="img\figure\figure33.png" />
+    <Content Include="img\figure\figure36.png" />
+    <Content Include="img\figure\figure38.png" />
+    <Content Include="img\figure\figure39.png" />
+    <Content Include="img\figure\figure4.png" />
+    <Content Include="img\figure\figure40.png" />
+    <Content Include="img\figure\figure41.png" />
+    <Content Include="img\figure\figure42.png" />
+    <Content Include="img\figure\figure43.png" />
+    <Content Include="img\figure\figure46.png" />
+    <Content Include="img\figure\figure47.png" />
+    <Content Include="img\figure\figure49.png" />
+    <Content Include="img\figure\figure5.png" />
+    <Content Include="img\figure\figure51.png" />
+    <Content Include="img\figure\figure52.png" />
+    <Content Include="img\figure\figure53.png" />
+    <Content Include="img\figure\figure54.png" />
+    <Content Include="img\figure\figure55.png" />
+    <Content Include="img\figure\figure56.png" />
+    <Content Include="img\figure\figure57.png" />
+    <Content Include="img\figure\figure58.png" />
+    <Content Include="img\figure\figure59.png" />
+    <Content Include="img\figure\figure6.png" />
+    <Content Include="img\figure\figure60.png" />
+    <Content Include="img\figure\figure61.png" />
+    <Content Include="img\figure\figure62.png" />
+    <Content Include="img\figure\figure63.png" />
+    <Content Include="img\figure\figure64.png" />
+    <Content Include="img\figure\figure65.png" />
+    <Content Include="img\figure\figure66.png" />
+    <Content Include="img\figure\figure67.png" />
+    <Content Include="img\figure\figure68.png" />
+    <Content Include="img\figure\figure69.png" />
+    <Content Include="img\figure\figure7.png" />
+    <Content Include="img\figure\figure70.png" />
+    <Content Include="img\figure\figure72.png" />
+    <Content Include="img\figure\figure73.png" />
+    <Content Include="img\figure\figure74.png" />
+    <Content Include="img\figure\figure75.png" />
+    <Content Include="img\figure\figure76.png" />
+    <Content Include="img\figure\figure77.png" />
+    <Content Include="img\figure\figure78.png" />
+    <Content Include="img\figure\figure79.png" />
+    <Content Include="img\figure\figure8.png" />
+    <Content Include="img\figure\figure81.png" />
+    <Content Include="img\figure\figure82.png" />
+    <Content Include="img\figure\figure83.png" />
+    <Content Include="img\figure\figure84.png" />
+    <Content Include="img\figure\figure85.png" />
+    <Content Include="img\figure\figure86.png" />
+    <Content Include="img\figure\figure87.png" />
+    <Content Include="img\figure\figure88.png" />
+    <Content Include="img\figure\figure89.png" />
+    <Content Include="img\figure\figure90.png" />
+    <Content Include="img\figure\figure91.png" />
+    <Content Include="img\figure\figure92.png" />
+    <Content Include="img\figure\figure93.png" />
+    <Content Include="img\figure\figure94.png" />
+    <Content Include="img\figure\figure95.png" />
+    <Content Include="img\figure\figure96.png" />
+    <Content Include="img\figure\figure97.png" />
+    <Content Include="img\figure\figure98.png" />
+    <Content Include="img\figure\figure99.png" />
+    <Content Include="img\login.jpg" />
+    <Content Include="img\logo-name.jpg" />
+    <Content Include="img\logo1.jpg" />
+    <Content Include="img\logo1.png" />
+    <Content Include="img\logo2.png" />
+    <Content Include="img\ourfinancials-quaterlyreport.png" />
+    <Content Include="img\pdf_icon.png" />
+    <Content Include="img\pdf_icon1.png" />
+    <Content Include="img\power-1.jpg" />
+    <Content Include="img\power-2.jpg" />
+    <Content Include="img\power-3.jpg" />
+    <Content Include="img\power.jpg" />
+    <Content Include="img\Power1.png" />
+    <Content Include="img\power3.jpg" />
+    <Content Include="img\power4.jpg" />
+    <Content Include="img\power44.jpg" />
+    <Content Include="img\preloader.gif" />
+    <Content Include="img\slider\slider1.jpg" />
+    <Content Include="img\slider\slider2.jpg" />
+    <Content Include="img\slider\slider3.jpg" />
+    <Content Include="img\slider\slider4.jpg" />
+    <Content Include="img\strips\about1.jpg" />
+    <Content Include="img\strips\Board.jpg" />
+    <Content Include="img\strips\breadcrumb1.png" />
+    <Content Include="img\strips\career.jpg" />
+    <Content Include="img\strips\cement1.jpg" />
+    <Content Include="img\strips\Committees.jpg" />
+    <Content Include="img\strips\contact.jpg" />
+    <Content Include="img\strips\investors.jpg" />
+    <Content Include="img\strips\login1.jpg" />
+    <Content Include="img\strips\power2.jpg" />
+    <Content Include="img\strips\sugar1.jpg" />
+    <Content Include="img\sugar-1.jpg" />
+    <Content Include="img\sugar-2.jpg" />
+    <Content Include="img\sugar-3.jpg" />
+    <Content Include="img\sugar.jpg" />
+    <Content Include="img\sugar1.png" />
+    <Content Include="img\sugar2.jpg" />
+    <Content Include="img\sugar3.jpg" />
+    <Content Include="img\team-1.png" />
+    <Content Include="img\team-2.png" />
+    <Content Include="img\team4.jpg" />
+    <Content Include="img\thumb.png" />
+    <Content Include="img\website-under-construction.png" />
+    <Content Include="index.html" />
+    <Content Include="investor-grievance-reports.html" />
+    <Content Include="js\AddAgmEgmProceedings.js" />
+    <Content Include="js\AddAnnualReport.js" />
+    <Content Include="js\AddBoardMeetingNotices.js" />
+    <Content Include="js\AddBoardMembers.js" />
+    <Content Include="js\AddBookClosure.js" />
+    <Content Include="js\AddCertificateUnderRegulation40%2810%29.js" />
+    <Content Include="js\AddCertificateUnderRegulation7%283%29.js" />
+    <Content Include="js\AddCertificateUnderRegulation74%285%29.js" />
+    <Content Include="js\AddCommittee.js" />
+    <Content Include="js\AddCommunicationswithShareholders.js" />
+    <Content Include="js\AddCompositionofBoardCommittees.js" />
+    <Content Include="js\AddContactDetails.js" />
+    <Content Include="js\AddContactInfo.js" />
+    <Content Include="js\AddCorporateGovernanceReport.js" />
+    <Content Include="js\AddCsrReports.js" />
+    <Content Include="js\AddDesignations.js" />
+    <Content Include="js\AddDetailsofRTA.js" />
+    <Content Include="js\AddDisclosure.js" />
+    <Content Include="js\AddDisclosureUnderRegulation302015.js" />
+    <Content Include="js\AddFinancialResults.js" />
+    <Content Include="js\AddGeneralAnnouncements.js" />
+    <Content Include="js\AddInvestorGrievanceReports.js" />
+    <Content Include="js\AddKycComplianceDocuments.js" />
+    <Content Include="js\AddMail.js" />
+    <Content Include="js\AddNoticesofGeneralMeetings.js" />
+    <Content Include="js\AddOutcomeofBoardMeeting.js" />
+    <Content Include="js\AddPaperAdvertisements.js" />
+    <Content Include="js\Addpolicies.js" />
+    <Content Include="js\AddReconciliationOfShareCapitalAudit.js" />
+    <Content Include="js\AddScrutinizersReports.js" />
+    <Content Include="js\AddSecretarialComplianceReports.js" />
+    <Content Include="js\AddShareholdersInformation.js" />
+    <Content Include="js\AddShareholdingPattern.js" />
+    <Content Include="js\AddTradingWindowClosure.js" />
+    <Content Include="js\AddUser.js" />
+    <Content Include="js\AgmEgmProceedings.js" />
+    <Content Include="js\AnnualReport.js" />
+    <Content Include="js\BoardMeetingNotices.js" />
+    <Content Include="js\BoardOfDirectors.js" />
+    <Content Include="js\BookClosure.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\CareerData.js" />
+    <Content Include="js\CareerDetails.js" />
+    <Content Include="js\CertificateUnderRegulation40%2810%29.js" />
+    <Content Include="js\CertificateUnderRegulation7%283%29.js" />
+    <Content Include="js\CertificateUnderRegulation74%285%29.js" />
+    <Content Include="js\circle-progress.min.js" />
+    <Content Include="js\CommunicationswithShareholders.js" />
+    <Content Include="js\CompositionofBoardCommittees.js" />
+    <Content Include="js\ContactData.js" />
+    <Content Include="js\ContactDetailsofOfficials.js" />
+    <Content Include="js\ContactInfoDetails.js" />
+    <Content Include="js\CorporateGovernanceReport.js" />
+    <Content Include="js\CsrReports.js" />
+    <Content Include="js\DetailsofRTA.js" />
+    <Content Include="js\DisclosureUnderRegulation302015.js" />
+    <Content Include="js\disclosure_under_regulations_sebi.js" />
+    <Content Include="js\FinancialResults.js" />
+    <Content Include="js\GeneralAnnouncements.js" />
+    <Content Include="js\home.js" />
+    <Content Include="js\HrJobDescription.js" />
+    <Content Include="js\InvestorGrievanceReports.js" />
+    <Content Include="js\jquery-3.4.1.min.js" />
+    <Content Include="js\jquery.meanmenu.min.js" />
+    <Content Include="js\KakatiyaCareer.js" />
+    <Content Include="js\KakatiyaCareerDetails.js" />
+    <Content Include="js\KycComplianceDocuments.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\NoticesofGeneralMeetings.js" />
+    <Content Include="js\OutcomeofBoardMeeting.js" />
+    <Content Include="js\PaperAdvertisements.js" />
+    <Content Include="js\policy.js" />
+    <Content Include="js\ReconciliationOfShareCapitalAudit.js" />
+    <Content Include="js\AddRelatedPartyTransactions.js" />
+    <Content Include="js\RelatedPartyTransactions.js" />
+    <Content Include="js\sal.js" />
+    <Content Include="js\ScrutinizersReports.js" />
+    <Content Include="js\AddSebiSastFilings.js" />
+    <Content Include="js\AddSEBI%28PIT%29SDDComplianceCertificates.js" />
+    <Content Include="js\SEBI%28PIT%29SDDComplianceCertificates.js" />
+    <Content Include="js\SebiSastFilings.js" />
+    <Content Include="js\SecretarialComplianceReports.js" />
+    <Content Include="js\ShareholdersInformation.js" />
+    <Content Include="js\ShareholdingPattern.js" />
+    <Content Include="js\slick.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="js\AddUnpaidDividendIepf.js" />
+    <Content Include="js\TradingWindowClosure.js" />
+    <Content Include="js\UnpaidDividendIepf.js" />
+    <Content Include="js\validator.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="kyc-compliance-documents - Copy.html" />
+    <Content Include="kyc-compliance-documents.html" />
+    <Content Include="Login.aspx" />
+    <Content Include="management.html" />
+    <Content Include="notices-of-general-meetings.html" />
+    <Content Include="outcome-of-board-meeting.html" />
+    <Content Include="paper-advertisements.html" />
+    <Content Include="policies.html" />
+    <Content Include="power.html" />
+    <Content Include="profile.html" />
+    <Content Include="reconciliation-of-share-capital-audit-sebi.html" />
+    <Content Include="reconciliation-of-share-capital-audit.html" />
+    <Content Include="Recovery.aspx" />
+    <Content Include="related-party-transactions.html" />
+    <Content Include="scrutinizers-report.html" />
+    <Content Include="sebi-pit-sdd-compliance-certificates.html" />
+    <Content Include="sebi-sast-filings.html" />
+    <Content Include="sebi-sdd-compliance-certificates.html" />
+    <Content Include="secretarial-compliance-reports.html" />
+    <Content Include="secretarial-compliance-reports1.html" />
+    <Content Include="shareholders-information.html" />
+    <Content Include="shareholding-pattern.html" />
+    <Content Include="style.css" />
+    <Content Include="sugar.html" />
+    <Content Include="testing.html" />
+    <Content Include="trading-window-closure.html" />
+    <Content Include="unpaid-dividend-iepf.html" />
+    <Content Include="vendor\nivo-slider\home.js" />
+    <Content Include="vendor\nivo-slider\jquery.nivo.slider.js" />
+    <Content Include="vendor\nivo-slider\nivo-slider.css" />
+    <Content Include="vendor\owlcarousel\owl.carousel.min.css" />
+    <Content Include="vendor\owlcarousel\owl.carousel.min.js" />
+    <Content Include="vendor\owlcarousel\owl.theme.default.min.css" />
+    <Content Include="vendor\owlcarousel\owl.video.play.png" />
+    <Content Include="Web.config" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AddAgmEgmProceedings.aspx.cs">
+      <DependentUpon>AddAgmEgmProceedings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddAgmEgmProceedings.aspx.designer.cs">
+      <DependentUpon>AddAgmEgmProceedings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddAnnualReport.aspx.cs">
+      <DependentUpon>AddAnnualReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddAnnualReport.aspx.designer.cs">
+      <DependentUpon>AddAnnualReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddBoardMeetingNotices.aspx.cs">
+      <DependentUpon>AddBoardMeetingNotices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddBoardMeetingNotices.aspx.designer.cs">
+      <DependentUpon>AddBoardMeetingNotices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddBookClosure.aspx.cs">
+      <DependentUpon>AddBookClosure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddBookClosure.aspx.designer.cs">
+      <DependentUpon>AddBookClosure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCareersDetails.asmx.cs">
+      <DependentUpon>AddCareersDetails.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCertificateUnderRegulation40%2810%29.asmx.cs">
+      <DependentUpon>AddCertificateUnderRegulation40%2810%29.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCertificateUnderRegulation7%283%29.aspx.cs">
+      <DependentUpon>AddCertificateUnderRegulation7%283%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCertificateUnderRegulation7%283%29.aspx.designer.cs">
+      <DependentUpon>AddCertificateUnderRegulation7%283%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCertificateUnderRegulation74%285%29.aspx.cs">
+      <DependentUpon>AddCertificateUnderRegulation74%285%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCertificateUnderRegulation74%285%29.aspx.designer.cs">
+      <DependentUpon>AddCertificateUnderRegulation74%285%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCommittees.aspx.cs">
+      <DependentUpon>AddCommittees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCommittees.aspx.designer.cs">
+      <DependentUpon>AddCommittees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCommunicationswithShareholders.aspx.cs">
+      <DependentUpon>AddCommunicationswithShareholders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCommunicationswithShareholders.aspx.designer.cs">
+      <DependentUpon>AddCommunicationswithShareholders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCompositionofBoardCommittees.aspx.cs">
+      <DependentUpon>AddCompositionofBoardCommittees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCompositionofBoardCommittees.aspx.designer.cs">
+      <DependentUpon>AddCompositionofBoardCommittees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddContactData.aspx.cs">
+      <DependentUpon>AddContactData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddContactData.aspx.designer.cs">
+      <DependentUpon>AddContactData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddContactDetails.aspx.cs">
+      <DependentUpon>AddContactDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddContactDetails.aspx.designer.cs">
+      <DependentUpon>AddContactDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddContactInfo.asmx.cs">
+      <DependentUpon>AddContactInfo.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCorporateGovernanceReport.aspx.cs">
+      <DependentUpon>AddCorporateGovernanceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCorporateGovernanceReport.aspx.designer.cs">
+      <DependentUpon>AddCorporateGovernanceReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCsrReports.asmx.cs">
+      <DependentUpon>AddCsrReports.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddDesignations.aspx.cs">
+      <DependentUpon>AddDesignations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddDesignations.aspx.designer.cs">
+      <DependentUpon>AddDesignations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddDetailsofRTA.aspx.cs">
+      <DependentUpon>AddDetailsofRTA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddDetailsofRTA.aspx.designer.cs">
+      <DependentUpon>AddDetailsofRTA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddDisclosure.aspx.cs">
+      <DependentUpon>AddDisclosure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddDisclosure.aspx.designer.cs">
+      <DependentUpon>AddDisclosure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddDisclosureUnderRegulation302015.asmx.cs">
+      <DependentUpon>AddDisclosureUnderRegulation302015.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddFinancialResults.aspx.cs">
+      <DependentUpon>AddFinancialResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddFinancialResults.aspx.designer.cs">
+      <DependentUpon>AddFinancialResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddGeneralAnnouncements.aspx.cs">
+      <DependentUpon>AddGeneralAnnouncements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddGeneralAnnouncements.aspx.designer.cs">
+      <DependentUpon>AddGeneralAnnouncements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddInvestorGrievanceReports.aspx.cs">
+      <DependentUpon>AddInvestorGrievanceReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddInvestorGrievanceReports.aspx.designer.cs">
+      <DependentUpon>AddInvestorGrievanceReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddKycComplianceDocuments.aspx.cs">
+      <DependentUpon>AddKycComplianceDocuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddKycComplianceDocuments.aspx.designer.cs">
+      <DependentUpon>AddKycComplianceDocuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddNoticesofGeneralMeetings.aspx.cs">
+      <DependentUpon>AddNoticesofGeneralMeetings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddNoticesofGeneralMeetings.aspx.designer.cs">
+      <DependentUpon>AddNoticesofGeneralMeetings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddOutcomeofBoardMeeting.asmx.cs">
+      <DependentUpon>AddOutcomeofBoardMeeting.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddPaperAdvertisements.aspx.cs">
+      <DependentUpon>AddPaperAdvertisements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddPaperAdvertisements.aspx.designer.cs">
+      <DependentUpon>AddPaperAdvertisements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddPolicies.aspx.cs">
+      <DependentUpon>AddPolicies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddPolicies.aspx.designer.cs">
+      <DependentUpon>AddPolicies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddReconciliationOfShareCapitalAudit.aspx.cs">
+      <DependentUpon>AddReconciliationOfShareCapitalAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddReconciliationOfShareCapitalAudit.aspx.designer.cs">
+      <DependentUpon>AddReconciliationOfShareCapitalAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddRelatedPartyTransactions.aspx.cs">
+      <DependentUpon>AddRelatedPartyTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddRelatedPartyTransactions.aspx.designer.cs">
+      <DependentUpon>AddRelatedPartyTransactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddScrutinizersReports.aspx.cs">
+      <DependentUpon>AddScrutinizersReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddScrutinizersReports.aspx.designer.cs">
+      <DependentUpon>AddScrutinizersReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddSEBI%28PIT%29SDDComplianceCertificates.aspx.cs">
+      <DependentUpon>AddSEBI%28PIT%29SDDComplianceCertificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddSEBI%28PIT%29SDDComplianceCertificates.aspx.designer.cs">
+      <DependentUpon>AddSEBI%28PIT%29SDDComplianceCertificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddSebiSastFilings.aspx.cs">
+      <DependentUpon>AddSebiSastFilings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddSebiSastFilings.aspx.designer.cs">
+      <DependentUpon>AddSebiSastFilings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddSecretarialComplianceReports.aspx.cs">
+      <DependentUpon>AddSecretarialComplianceReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddSecretarialComplianceReports.aspx.designer.cs">
+      <DependentUpon>AddSecretarialComplianceReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddShareholdersInformation.asmx.cs">
+      <DependentUpon>AddShareholdersInformation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AddShareholdingPattern.aspx.cs">
+      <DependentUpon>AddShareholdingPattern.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddShareholdingPattern.aspx.designer.cs">
+      <DependentUpon>AddShareholdingPattern.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddTradingWindowClosure.aspx.cs">
+      <DependentUpon>AddTradingWindowClosure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddTradingWindowClosure.aspx.designer.cs">
+      <DependentUpon>AddTradingWindowClosure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddUnpaidDividendIepf.aspx.cs">
+      <DependentUpon>AddUnpaidDividendIepf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddUnpaidDividendIepf.aspx.designer.cs">
+      <DependentUpon>AddUnpaidDividendIepf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AgmEgmProceedings.asmx.cs">
+      <DependentUpon>AgmEgmProceedings.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\AnnualReport.asmx.cs">
+      <DependentUpon>AnnualReport.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\BoardMeetingNotices.asmx.cs">
+      <DependentUpon>BoardMeetingNotices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\BoardofDirectors.aspx.cs">
+      <DependentUpon>BoardofDirectors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BoardofDirectors.aspx.designer.cs">
+      <DependentUpon>BoardofDirectors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BoardOfDirectorsData.asmx.cs">
+      <DependentUpon>BoardOfDirectorsData.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\BookClosure.asmx.cs">
+      <DependentUpon>BookClosure.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\CareersData.aspx.cs">
+      <DependentUpon>CareersData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CareersData.aspx.designer.cs">
+      <DependentUpon>CareersData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CertificateUnderRegulation40%2810%29.aspx.cs">
+      <DependentUpon>CertificateUnderRegulation40%2810%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CertificateUnderRegulation40%2810%29.aspx.designer.cs">
+      <DependentUpon>CertificateUnderRegulation40%2810%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CertificateUnderRegulation7%283%29.asmx.cs">
+      <DependentUpon>CertificateUnderRegulation7%283%29.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\CertificateUnderRegulation74%285%29.asmx.cs">
+      <DependentUpon>CertificateUnderRegulation74%285%29.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\Committees.asmx.cs">
+      <DependentUpon>Committees.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\CommunicationswithShareholders.asmx.cs">
+      <DependentUpon>CommunicationswithShareholders.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\CompositionofBoardCommittees.asmx.cs">
+      <DependentUpon>CompositionofBoardCommittees.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ContactData.asmx.cs">
+      <DependentUpon>ContactData.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ContactDetails.asmx.cs">
+      <DependentUpon>ContactDetails.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ContactInfo.aspx.cs">
+      <DependentUpon>ContactInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ContactInfo.aspx.designer.cs">
+      <DependentUpon>ContactInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CorporateGovernanceReport.asmx.cs">
+      <DependentUpon>CorporateGovernanceReport.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\CsrReports.aspx.cs">
+      <DependentUpon>CsrReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CsrReports.aspx.designer.cs">
+      <DependentUpon>CsrReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Designations.asmx.cs">
+      <DependentUpon>Designations.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\DetailsofRTA.asmx.cs">
+      <DependentUpon>DetailsofRTA.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\Disclosure.asmx.cs">
+      <DependentUpon>Disclosure.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\DisclosureUnderRegulation302015.aspx.cs">
+      <DependentUpon>DisclosureUnderRegulation302015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DisclosureUnderRegulation302015.aspx.designer.cs">
+      <DependentUpon>DisclosureUnderRegulation302015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FinancialResults.asmx.cs">
+      <DependentUpon>FinancialResults.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\GeneralAnnouncements.asmx.cs">
+      <DependentUpon>GeneralAnnouncements.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\InvestorGrievanceReports.asmx.cs">
+      <DependentUpon>InvestorGrievanceReports.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\KycComplianceDocuments.asmx.cs">
+      <DependentUpon>KycComplianceDocuments.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\MailData.asmx.cs">
+      <DependentUpon>MailData.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\MailData.aspx.cs">
+      <DependentUpon>MailData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MailData.aspx.designer.cs">
+      <DependentUpon>MailData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NoticesofGeneralMeetings.asmx.cs">
+      <DependentUpon>NoticesofGeneralMeetings.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\OutcomeofBoardMeeting.aspx.cs">
+      <DependentUpon>OutcomeofBoardMeeting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutcomeofBoardMeeting.aspx.designer.cs">
+      <DependentUpon>OutcomeofBoardMeeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PaperAdvertisements.asmx.cs">
+      <DependentUpon>PaperAdvertisements.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\policies.asmx.cs">
+      <DependentUpon>policies.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ReconciliationOfShareCapitalAudit.asmx.cs">
+      <DependentUpon>ReconciliationOfShareCapitalAudit.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\RelatedPartyTransactions.asmx.cs">
+      <DependentUpon>RelatedPartyTransactions.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ScrutinizersReports.asmx.cs">
+      <DependentUpon>ScrutinizersReports.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\SEBI%28PIT%29SDDComplianceCertificates.asmx.cs">
+      <DependentUpon>SEBI%28PIT%29SDDComplianceCertificates.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\SebiSastFilings.asmx.cs">
+      <DependentUpon>SebiSastFilings.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\SecretarialComplianceReports.asmx.cs">
+      <DependentUpon>SecretarialComplianceReports.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\ShareholdersInformation.aspx.cs">
+      <DependentUpon>ShareholdersInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ShareholdersInformation.aspx.designer.cs">
+      <DependentUpon>ShareholdersInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ShareholdingPattern.asmx.cs">
+      <DependentUpon>ShareholdingPattern.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\TradingWindowClosure.asmx.cs">
+      <DependentUpon>TradingWindowClosure.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\UnpaidDividendIepf.asmx.cs">
+      <DependentUpon>UnpaidDividendIepf.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\User.asmx.cs">
+      <DependentUpon>User.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="careers.aspx.cs">
+      <DependentUpon>careers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="careers.aspx.designer.cs">
+      <DependentUpon>careers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact-us.aspx.cs">
+      <DependentUpon>contact-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact-us.aspx.designer.cs">
+      <DependentUpon>contact-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HrData\CareerData.asmx.cs">
+      <DependentUpon>CareerData.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HrData\GetCareesData.aspx.cs">
+      <DependentUpon>GetCareesData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HrData\GetCareesData.aspx.designer.cs">
+      <DependentUpon>GetCareesData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HrData\JobDescription.asmx.cs">
+      <DependentUpon>JobDescription.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HrData\JobDescription.aspx.cs">
+      <DependentUpon>JobDescription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HrData\JobDescription.aspx.designer.cs">
+      <DependentUpon>JobDescription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recovery.aspx.cs">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recovery.aspx.designer.cs">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".vs\new web\config\applicationhost.config" />
+    <Content Include=".vs\new web\v16\.suo" />
+    <Content Include=".vs\slnx.sqlite" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include="img\investors\AGM Notices\34th AGM Notice - 2013.pdf" />
+    <Content Include="img\investors\AGM Notices\35th AGM Notice - 2014.pdf" />
+    <Content Include="img\investors\AGM Notices\36th AGM Notice - 2015.pdf" />
+    <Content Include="img\investors\AGM Notices\37th AGM Notice - 2016.pdf" />
+    <Content Include="img\investors\AGM Notices\38th AGM Notice - 2017.pdf" />
+    <Content Include="img\investors\AGM Notices\39th AGM Notice - 2018.pdf" />
+    <Content Include="img\investors\AGM Notices\40th AGM Notice - 2019.pdf" />
+    <Content Include="img\investors\AGM Notices\41st AGM Notice - 2020.pdf" />
+    <Content Include="img\investors\AGM Notices\42nd AGM Notice - 2021.pdf" />
+    <Content Include="img\investors\AGM Notices\43rd AGM Notice - 2022.pdf" />
+    <Content Include="img\investors\AGM Notices\43rd AGM Notice - 2023.pdf" />
+    <Content Include="img\investors\AGM Notices\EGM-27032024 Notice-2024.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCCEDINGS-2019.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2016.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2017.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2018.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2020.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2021.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2022.pdf" />
+    <Content Include="img\investors\agm-egm\AGM-PROCEEDINGS-2023.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032019.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032020.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032021.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032022.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032023.pdf" />
+    <Content Include="img\investors\agm-egm\ASCR31032024.pdf" />
+    <Content Include="img\investors\agm-egm\EGM-PROCEEDINGS-2024.pdf" />
+    <Content Include="img\investors\annual\Annual-Return-2019.pdf" />
+    <Content Include="img\investors\annual\Annual-Return-2020.pdf" />
+    <Content Include="img\investors\annual\Annual-Return-2021.pdf" />
+    <Content Include="img\investors\annual\Annual-Return-2022.pdf" />
+    <Content Include="img\investors\annual\Annual-Return-2023.pdf" />
+    <Content Include="img\investors\annual\AR-2012-2013.pdf" />
+    <Content Include="img\investors\annual\AR-2013-2014.pdf" />
+    <Content Include="img\investors\annual\AR-2014-2015.pdf" />
+    <Content Include="img\investors\annual\AR-2015-2016.pdf" />
+    <Content Include="img\investors\annual\AR-2016-2017.pdf" />
+    <Content Include="img\investors\annual\AR-2017-2018.pdf" />
+    <Content Include="img\investors\annual\AR-2018-2019.pdf" />
+    <Content Include="img\investors\annual\AR-2019-2020.pdf" />
+    <Content Include="img\investors\annual\AR-2020-2021.pdf" />
+    <Content Include="img\investors\annual\AR-2021-2022.pdf" />
+    <Content Include="img\investors\annual\AR-2022-2023.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2015-2016\BMN31122015.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2016-2017\BMN30062016.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2016-2017\BMN30092016.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2016-2017\BMN31032016.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2016-2017\BMN31122016.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2017-2018\BMN30062017.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2017-2018\BMN30092017.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2017-2018\BMN31032017.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2017-2018\BMN31122017.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2018-2019\BMN30062018.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2018-2019\BMN30092018.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2018-2019\BMN31032018.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2018-2019\BMN31122018.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2019-2020\BMN30062019.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2019-2020\BMN30092019.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2019-2020\BMN31032019.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2019-2020\BMN31122019.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2020-2021\BMN30062020.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2020-2021\BMN30092020.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2020-2021\BMN31032020.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2020-2021\BMN31122020.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2021-2022\BMN30062021.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2021-2022\BMN30092021.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2021-2022\BMN31032021.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2021-2022\BMN31122021.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2022-2023\BMN30062022.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2022-2023\BMN30092022.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2022-2023\BMN31032022.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2022-2023\BMN31122022.PDF" />
+    <Content Include="img\investors\Board-Meeting-Notices\2023-2024\BMA30062023.PDF" />
+    <Content Include="img\investors\Board-Meeting-Notices\2023-2024\BMA31122023.PDF" />
+    <Content Include="img\investors\Board-Meeting-Notices\2023-2024\BMN30092023.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2023-2024\BMN31032023.pdf" />
+    <Content Include="img\investors\Board-Meeting-Notices\2024-2025\BMA31032024.pdf" />
+    <Content Include="img\investors\Book-Closure\EGM-2024-RECORD-DATE.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2016.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2017.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2018.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2019.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2020.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2021.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2022.pdf" />
+    <Content Include="img\investors\Book-Closure\IBC2023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40930092016.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40930092017.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40930092018.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40930092019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40930092020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032016.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032017.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032018.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-40%2810%29\CERT40931032024.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-30092016.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-30092017.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-30092018.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-30092019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-30092020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032016.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032017.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032018.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-7%283%29\CCR73-31032024.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2018-2019\DPR74531032019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2019-2020\DPR74530062019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2019-2020\DPR74530092019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2019-2020\DPR74531032020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2019-2020\DPR74531122019.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2020-2021\DPR74530062020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2020-2021\DPR74530092020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2020-2021\DPR74531032021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2020-2021\DPR74531122020.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2021-2022\DPR74530062021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2021-2022\DPR74530092021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2021-2022\DPR74531032022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2021-2022\DPR74531122021.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2022-2023\DPR74530062022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2022-2023\DPR74530092022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2022-2023\DPR74531032023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2022-2023\DPR74531122022.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2023-2024\DPR74530062023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2023-2024\DPR74530092023.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2023-2024\DPR74531032024.pdf" />
+    <Content Include="img\investors\Certificate-under-Regulation-74%285%29\2023-2024\DPR74531122023.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\AM-15.02.2023.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\Kyc-15.02.2023.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\Kyc-20.11.2023.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\kyc-26.05.2023.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\Kyc-26.07.2022.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\SEBI-CIRCULAR-DECEMBER21.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\SEBI-CIRCULAR-November21.pdf" />
+    <Content Include="img\investors\Circulars to Shareholders\Unpaid dividend letter-2015-2016.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2015-2016\CTW31032016.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2015-2016\CTW31122015.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2016-2017\CTW30062016.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2016-2017\CTW30092016.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2016-2017\CTW31032017.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2016-2017\CTW31122016.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2017-2018\CTW30062017.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2017-2018\CTW30092017.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2017-2018\CTW31032018.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2017-2018\CTW31122017.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2018-2019\CTW30062018.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2018-2019\CTW30092018.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2018-2019\CTW31032019.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2018-2019\CTW31122018.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2019-2020\CTW30062019.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2019-2020\CTW30092019.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2019-2020\CTW31032020.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2019-2020\CTW31122019.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2020-2021\CTW30062020.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2020-2021\CTW30092020.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2020-2021\CTW31032021.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2020-2021\CTW31122020.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2021-2022\CTW30062021.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2021-2022\CTW30092021.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2021-2022\CTW31032022.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2021-2022\CTW31122021.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2022-2023\CTW30062022.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2022-2023\CTW30092022.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2022-2023\CTW31032023.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2022-2023\CTW31122022.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2023-2024\ctw30062023.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2023-2024\ctw30092023.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2023-2024\ctw31032024.pdf" />
+    <Content Include="img\investors\Closure of Trading Window\2023-2024\ctw31122023.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2015-2016\CGR-31032016.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2015-2016\CGR-31122015.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2016-2017\CGR-30062016.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2016-2017\CGR-30092016.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2016-2017\CGR-31032017.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2016-2017\CGR-31122016.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2017-2018\CGR-30062017.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2017-2018\CGR-30092017.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2017-2018\CGR-31032018.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2017-2018\CGR-31122017.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2018-2019\CGR-30062018.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2018-2019\CGR-30092018.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2018-2019\CGR-31032019.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2018-2019\CGR-31122018.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2019-2020\CGR-30062019.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2019-2020\CGR-30092019.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2019-2020\CGR-31032020.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2019-2020\CGR-31122019.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2020-2021\CGR-30062020.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2020-2021\CGR-30092020.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2020-2021\CGR-31032021.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2020-2021\CGR-31122020.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2021-2022\CGR-30062021.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2021-2022\CGR-30092021.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2021-2022\CGR-31032022.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2021-2022\CGR-31122021.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2022-2023\CGR-30062022.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2022-2023\CGR-30092022.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2022-2023\CGR-31032023.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2022-2023\CGR-31122022.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2023-2024\CGR-30062023.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2023-2024\CGR-30092023.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2023-2024\CGR-31032024.pdf" />
+    <Content Include="img\investors\Corporate-Governance-Reports\2023-2024\CGR-31122023.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2015-2016.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2016-2017.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2017-2018.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2018-2019.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2019-2020.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2020-2021.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2021-2022.pdf" />
+    <Content Include="img\investors\CSR-Reports\CSR-2022-2023.pdf" />
+    <Content Include="img\investors\Financial-Results\2015-2016\AFR-31032016.pdf" />
+    <Content Include="img\investors\Financial-Results\2015-2016\UAFR-30062015.pdf" />
+    <Content Include="img\investors\Financial-Results\2015-2016\UAFR-30092015.pdf" />
+    <Content Include="img\investors\Financial-Results\2015-2016\UAFR-31122015.pdf" />
+    <Content Include="img\investors\Financial-Results\2016-2017\AFR-31032017.pdf" />
+    <Content Include="img\investors\Financial-Results\2016-2017\UAFR-30062016.pdf" />
+    <Content Include="img\investors\Financial-Results\2016-2017\UAFR-30092016.pdf" />
+    <Content Include="img\investors\Financial-Results\2016-2017\UAFR-31122016.pdf" />
+    <Content Include="img\investors\Financial-Results\2017-2018\AFR-31032018.pdf" />
+    <Content Include="img\investors\Financial-Results\2017-2018\UAFR-30062017.pdf" />
+    <Content Include="img\investors\Financial-Results\2017-2018\UAFR-30092017.pdf" />
+    <Content Include="img\investors\Financial-Results\2017-2018\UAFR-31122017.pdf" />
+    <Content Include="img\investors\Financial-Results\2018-2019\AFR-31032019.pdf" />
+    <Content Include="img\investors\Financial-Results\2018-2019\UAFR-30062018.pdf" />
+    <Content Include="img\investors\Financial-Results\2018-2019\UAFR-30092018.pdf" />
+    <Content Include="img\investors\Financial-Results\2018-2019\UAFR-31122018.pdf" />
+    <Content Include="img\investors\Financial-Results\2019-2020\AFR-31032020.pdf" />
+    <Content Include="img\investors\Financial-Results\2019-2020\UAFR-30062019.pdf" />
+    <Content Include="img\investors\Financial-Results\2019-2020\UAFR-30092019.pdf" />
+    <Content Include="img\investors\Financial-Results\2019-2020\UAFR-31122019.pdf" />
+    <Content Include="img\investors\Financial-Results\2020-2021\AFR-31032021.pdf" />
+    <Content Include="img\investors\Financial-Results\2020-2021\UAFR-30062020.pdf" />
+    <Content Include="img\investors\Financial-Results\2020-2021\UAFR-30092020.pdf" />
+    <Content Include="img\investors\Financial-Results\2020-2021\UAFR-31122020.pdf" />
+    <Content Include="img\investors\Financial-Results\2021-2022\AFR-31032022.pdf" />
+    <Content Include="img\investors\Financial-Results\2021-2022\UAFR-30062021.pdf" />
+    <Content Include="img\investors\Financial-Results\2021-2022\UAFR-30092021.pdf" />
+    <Content Include="img\investors\Financial-Results\2021-2022\UAFR-31122021.pdf" />
+    <Content Include="img\investors\Financial-Results\2022-2023\AFR31032023.pdf" />
+    <Content Include="img\investors\Financial-Results\2022-2023\UAFR-30062022.pdf" />
+    <Content Include="img\investors\Financial-Results\2022-2023\UAFR-30092022.pdf" />
+    <Content Include="img\investors\Financial-Results\2022-2023\UAFR-31122022.pdf" />
+    <Content Include="img\investors\Financial-Results\2023-2024\AFR31032024.pdf" />
+    <Content Include="img\investors\Financial-Results\2023-2024\UAFR-30062023.pdf" />
+    <Content Include="img\investors\Financial-Results\2023-2024\UAFR-30092023.pdf" />
+    <Content Include="img\investors\Financial-Results\2023-2024\UAFR-31122023.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2015-2016\IGR31032016.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2015-2016\IGR31122015.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2016-2017\IGR30062016.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2016-2017\IGR30092016.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2016-2017\IGR31032017.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2016-2017\IGR31122016.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2017-2018\IGR30062017.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2017-2018\IGR30092017.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2017-2018\IGR31032018.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2017-2018\IGR31122017.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2018-2019\IGR30062018.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2018-2019\IGR30092018.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2018-2019\IGR31032019.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2018-2019\IGR31122018.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2019-2020\IGR30062019.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2019-2020\IGR30092019.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2019-2020\IGR31032020.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2019-2020\IGR31122019.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2020-2021\IGR30062020.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2020-2021\IGR30092020.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2020-2021\IGR31032021.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2020-2021\IGR31122020.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2021-2022\IGR30062021.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2021-2022\IGR30092021.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2021-2022\IGR31032022.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2021-2022\IGR31122021.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2022-2023\IGR30062022.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2022-2023\IGR30092022.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2022-2023\IGR31032023.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2022-2023\IGR31122022.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2023-2024\IGR30062023.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2023-2024\IGR30092023.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2023-2024\IGR31032024.pdf" />
+    <Content Include="img\investors\investor-grievance-Report\2023-2024\IGR31122023.pdf" />
+    <Content Include="img\investors\KYC\Form-A-Affidavit-for-issuance-of-duplicate-securities.pdf" />
+    <Content Include="img\investors\KYC\Form-B-Indemnity-for-issuance-of-duplicate-securities.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-1.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-2.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-3.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-4.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-5-Individual-Affidavit-by-Legal-Heirs.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-5-Joint-Affidavit-by-Legal-Heirs.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-5-NOC-by-Legal-Heirs.pdf" />
+    <Content Include="img\investors\KYC\Form-ISR-5.pdf" />
+    <Content Include="img\investors\KYC\Form-SH-13.pdf" />
+    <Content Include="img\investors\KYC\Form-SH-14.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2021-2022\Outcome-03.02.2022.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2021-2022\Outcome-03.08.2021.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2021-2022\Outcome-11.11.2021.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2021-2022\Outcome-25.05.2022.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2022-2023\Outcome-10.02.2023.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2022-2023\Outcome-10.11.2022.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2022-2023\Outcome-11.08.2022.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2022-2023\Outcome-22.05.2023.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2023-2024\Outcome-02.11.2023.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2023-2024\Outcome-04.08.2023.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2023-2024\Outcome-13.02.2024.pdf" />
+    <Content Include="img\investors\Outcome of Board Meetings\2023-2024\Outcome-23.05.2024.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2020-2021\41st AGM Notice.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2020-2021\AFR-032021.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2020-2021\iepf-2020.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2020-2021\UAFR-122020.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\42nd AGM Notice.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\AFR-032022.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\IEPF-2021.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\UAFR-062021.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\UAFR-092021.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2021-2022\UAFR-122021.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\43rd AGM Notice.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\AFR-032023.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\IEPF-2022.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\UAFR-062022.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\UAFR-092022.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2022-2023\UAFR-122022.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\44th AGM Notice.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\AFR-032024.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\EGM Notice 2024.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\IEPF-2023.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\UAFR-062023.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\UAFR-092023.pdf" />
+    <Content Include="img\investors\Paper Advertisements\2023-2024\UAFR-122023.pdf" />
+    <Content Include="img\investors\policies\Code-of-Conduct-for-Directors-and-SMPs.pdf" />
+    <Content Include="img\investors\policies\Code-of-Conduct-to-regulate-monitor-report-trading-by-insiders.pdf" />
+    <Content Include="img\investors\policies\CSR-Policy.pdf" />
+    <Content Include="img\investors\policies\Disclosure-of-UPSI-Policy.pdf" />
+    <Content Include="img\investors\policies\Independent-Directors-Code.pdf" />
+    <Content Include="img\investors\policies\Policy-for-Determining-Materiality-of-an-event-or-information.pdf" />
+    <Content Include="img\investors\policies\Policy-on-Related-Party-Transactions.pdf" />
+    <Content Include="img\investors\policies\Preservation-of-Documents.pdf" />
+    <Content Include="img\investors\policies\Remuneration-Policy.pdf" />
+    <Content Include="img\investors\policies\Risk-Management.pdf" />
+    <Content Include="img\investors\policies\Terms-and-conditions-of-appointment-of-independent directors.pdf" />
+    <Content Include="img\investors\policies\Whistle-Blower-policy.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2015-2016\RSA31032016.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2015-2016\RSA31122015.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2016-2017\RSA30062016.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2016-2017\RSA30092016.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2016-2017\RSA31032017.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2016-2017\RSA31122016.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2017-2018\RSA30062017.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2017-2018\RSA30092017.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2017-2018\RSA31032018.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2017-2018\RSA31122017.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2018-2019\RSA30062018.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2018-2019\RSA30092018.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2018-2019\RSA31032019.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2018-2019\RSA31122018.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2019-2020\RSA30062019.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2019-2020\RSA30092019.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2019-2020\RSA31032020.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2019-2020\RSA31122019.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2020-2021\RSA30062020.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2020-2021\RSA30092020.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2020-2021\RSA31032021.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2020-2021\RSA31122020.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2021-2022\RSA30062021.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2021-2022\RSA30092021.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2021-2022\RSA31032022.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2021-2022\RSA31122021.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2022-2023\RSA30062022.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2022-2023\RSA30092022.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2022-2023\RSA31032023.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2022-2023\RSA31122022.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2023-2024\RSA30062023.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2023-2024\RSA30092023.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2023-2024\RSA31032024.pdf" />
+    <Content Include="img\investors\Reconciliation  of Share Capital Audit\2023-2024\RSA31122023.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appointment of Director.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appointment of Independent Director-Smt. Hima Bindu M.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appt. of CEO Proposal.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appt. of CS &amp; Change in KMP March 2022APPOINTMENT CSCO.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appt. of Directors at AGM 2019.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Appt. of Smt.Varalakshmi as a Director.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Closure of Operations PCB.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Constitution of Materiality of Event Committee.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Covid Suspension.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Demise of Shri Venkateswarlu, CMD.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Disconnection of Power Supply-PCB.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Impact of Covid.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Reapppoinmentof Directors.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\RECONSTITUTED RISK MC.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\RECONSTITUTION NRC2018.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Reconstitution of Committees 2017.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Reconstitution of CSR Committee 2016.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Reconstitution of Risk M Committee 2017.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Regulation 30 - tax matter.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Regulation 30-tax matter.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Release of Pledged shares 2020.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Resignation of Directors 2016.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Resignation of Independent Director.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Resignation of Sri Chengappa.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Resignation of Sri Madhusudhan Rao.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Resumption of Operations.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Revocation of Directions of PCB.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Re_Constitution of Materiality of Event Committee.pdf" />
+    <Content Include="img\investors\Regulation 30 Disclosures\Update reg Closure-PCB.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2018-2019\RPT31032019.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2019-2020\RPT30092019.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2019-2020\RPT31032020.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2020-2021\RPT30092020.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2020-2021\RPT31032021.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2021-2022\RPT30092021.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2021-2022\RPT31032022.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2022-2023\RPT30092022.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2022-2023\RPT31032023.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2023-2024\RPT30092023.pdf" />
+    <Content Include="img\investors\Related-Party-Transactions\2023-2024\RPT31032024.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR-EGM2024.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20142015.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20152016.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20162017.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20172018.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20182019.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20192020.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20202021.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20212022.pdf" />
+    <Content Include="img\investors\Scrutinizers Reports\EVR20222023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\REG.10%285%29-SAST-2016.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\Reg.10%285%29-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\Reg.10%286%29-SAST-2016.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\Reg.10%286%29-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\Reg.10%286%29-SP-SAST-2016.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 10\Reg.10%287%29-SAST-2016.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-10000 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-1105 shares-SAST-2019.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-1184 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-121 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-1290 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-19350 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-3032 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-36400 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-38000 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-4077 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-5032 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-6066 shares-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-RJ-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-SJ-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-SP-SAST-2016.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 29%282%29\Reg.29%282%29-SRPJ-SAST-2023.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2019-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2020-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2021-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2022-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2023-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 30%281%29\Reg.30%281%29-2024-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 31%284%29\Reg.31%284%29-2022-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 31%284%29\Reg.31%284%29-2023-SAST.pdf" />
+    <Content Include="img\investors\SEBI %28SAST%29 Filings\Regulation 31%284%29\Reg.31%284%29-2024-SAST.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2022-2023\sdd30092022.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2022-2023\sdd31032023.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2022-2023\sdd31122022.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2023-2024\sdd30062023.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2023-2024\sdd30092023.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2023-2024\sdd31032024.pdf" />
+    <Content Include="img\investors\SEBI%28PIT%29-SDD-Compliance-Certificates\2023-2024\sdd31122023.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032019.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032020.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032021.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032022.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032023.pdf" />
+    <Content Include="img\investors\secretarial\ASCR31032024.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2015-2016\SHP-31032016.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2015-2016\SHP-31122015.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2016-2017\SHP-30062016.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2016-2017\SHP-30092016.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2016-2017\SHP-31032017.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2016-2017\SHP-31122016.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2017-2018\SHP-30062017.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2017-2018\SHP-30092017.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2017-2018\SHP-31032018.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2017-2018\SHP-31122017.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2018-2019\SHP-30062018.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2018-2019\SHP-30092018.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2018-2019\SHP-31032019.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2018-2019\SHP-31122018.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2019-2020\SHP-30062019.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2019-2020\SHP-30092019.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2019-2020\SHP-31032020.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2019-2020\SHP-31122019.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2020-2021\SHP-30062020.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2020-2021\SHP-30092020.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2020-2021\SHP-31032021.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2020-2021\SHP-31122020.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2021-2022\SHP-30062021.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2021-2022\SHP-30092021.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2021-2022\SHP-31032022.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2021-2022\SHP-31122021.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2022-2023\SHP-30062022.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2022-2023\SHP-30092022.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2022-2023\SHP-31032023.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2022-2023\SHP-31122022.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2023-2024\SHP-30062023.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2023-2024\SHP-30092023.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2023-2024\SHP-31032024.pdf" />
+    <Content Include="img\investors\Shareholding-Pattern\2023-2024\SHP-31122023.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2010-2011.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2011-2012.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2012-2013.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2013-2014.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2014-2015.pdf" />
+    <Content Include="img\investors\UnpaidDividends\Share transfer to IEPF-2015-2016.pdf" />
+    <Content Include="img\investors\UnpaidDividents\2010-2011-iepf.pdf" />
+    <Content Include="img\investors\UnpaidDividents\2011-2012-iepf.pdf" />
+    <Content Include="img\investors\UnpaidDividents\2012-2013-iepf.pdf" />
+    <Content Include="img\investors\UnpaidDividents\2013-2014-iepf.pdf" />
+    <Content Include="img\investors\UnpaidDividents\2014-2015-iepf.pdf" />
+    <Content Include="img\investors\UnpaidDividents\dvd2016-17.pdf" />
+    <Content Include="img\investors\UnpaidDividents\income-tax-forms.zip" />
+    <Content Include="img\investors\UnpaidDividents\INCOME-TAX-FORMS\Form10F.pdf" />
+    <Content Include="img\investors\UnpaidDividents\INCOME-TAX-FORMS\Form15G.pdf" />
+    <Content Include="img\investors\UnpaidDividents\INCOME-TAX-FORMS\Form15H.pdf" />
+    <Content Include="img\investors\UnpaidDividents\kyc-formats.pdf" />
+    <Content Include="img\investors\UnpaidDividents\kyc-letter-may-2023.pdf" />
+    <Content Include="img\investors\UnpaidDividents\sebi-circulars-kyc.zip" />
+    <Content Include="img\investors\UnpaidDividents\SEBI-CIRCULARS-KYC\SEBI-CIRCULAR-DECEMBER21.pdf" />
+    <Content Include="img\investors\UnpaidDividents\SEBI-CIRCULARS-KYC\SEBI-CIRCULAR-November21.pdf" />
+    <Content Include="img\investors\UnpaidDividents\unpaid-2015-2016.pdf" />
+    <Content Include="img\slider\Thumbs.db" />
+    <Content Include="img\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="webfonts\fa-brands-400.eot" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.woff" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-brands-400d41d.eot" />
+    <Content Include="webfonts\fa-regular-400.eot" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.woff" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-regular-400d41d.eot" />
+    <Content Include="webfonts\fa-solid-900.eot" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.woff" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
+    <Content Include="webfonts\fa-solid-900d41d.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\investors\AgmEgmProceedings\" />
+    <Folder Include="Admin\investors\AnnualReport\" />
+    <Folder Include="Admin\investors\BoardMeetingNotices\" />
+    <Folder Include="Admin\investors\BookClosure\" />
+    <Folder Include="Admin\investors\CertificateUnderRegulation4010\" />
+    <Folder Include="Admin\investors\CertificateUnderRegulation73\" />
+    <Folder Include="Admin\investors\CertificateUnderRegulation745\" />
+    <Folder Include="Admin\investors\CommunicationswithShareholders\" />
+    <Folder Include="Admin\investors\CorporateGovernanceReport\" />
+    <Folder Include="Admin\investors\CsrReports\" />
+    <Folder Include="Admin\investors\DisclosureUnderRegulation302015\" />
+    <Folder Include="Admin\investors\FinancialResults\" />
+    <Folder Include="Admin\investors\GeneralAnnouncements\" />
+    <Folder Include="Admin\investors\InvestorGrievanceReports\" />
+    <Folder Include="Admin\investors\KycComplianceDocuments\" />
+    <Folder Include="Admin\investors\NoticesofGeneralMeetings\" />
+    <Folder Include="Admin\investors\OutcomeofBoardMeeting\" />
+    <Folder Include="Admin\investors\PaperAdvertisements\" />
+    <Folder Include="Admin\investors\Policies\" />
+    <Folder Include="Admin\investors\ReconciliationOfShareCapitalAudit\" />
+    <Folder Include="Admin\investors\RelatedPartyTransactions\" />
+    <Folder Include="Admin\investors\ScrutinizersReports\" />
+    <Folder Include="Admin\investors\SebiSastFilings\" />
+    <Folder Include="Admin\investors\SEBISDDComplianceCertificates\" />
+    <Folder Include="Admin\investors\SecretarialComplianceReports\" />
+    <Folder Include="Admin\investors\ShareholdingPattern\" />
+    <Folder Include="Admin\investors\TradingWindowClosure\" />
+    <Folder Include="Admin\investors\UnpaidDividendIepf\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Careers\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49899</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44398/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
